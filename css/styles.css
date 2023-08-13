@@ -1921,3 +1921,8 @@ padding: 0px 10px;
     padding: 20px;
 
 }
+@media(max-width: 768px){
+    .right_sidebar_top{
+        margin-top: 20px;
+    }
+}

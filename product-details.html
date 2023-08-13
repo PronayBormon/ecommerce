@@ -714,7 +714,7 @@
                 <div class="product_details_part">
                     <div class="row">   
                         <!-- left part  -->
-                        <div class="col-5">
+                        <div class="col-md-5">
                             <!-- image gallary or slider  -->
                             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 details_slide2 slider2">
                                 <div class="swiper-wrapper">
@@ -797,7 +797,7 @@
                             </div>
                         </div>
                         <!-- right part  -->
-                        <div class="col-7">
+                        <div class="col-md-7">
                             <div class="pro_info">
                                 <div class="badgeses">
                                     <div>
@@ -1914,10 +1914,10 @@
     <script>
         $(document).ready(function(){
             $("#info").on('click', function(){
-                $('.info_modal').show();
+                $('.info_modal').fadeIn();
             })
             $("#modal_close").on('click', function(){
-                $('.info_modal').hide();
+                $('.info_modal').fadeOut();
             })
         })
     </script>
