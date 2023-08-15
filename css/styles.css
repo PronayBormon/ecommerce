@@ -2465,7 +2465,7 @@ left: 0px;
     
 bottom: 0px;
     
-font-size: 14px;
+font-size: 12px;
     
 background: #000000d4;
     
@@ -2483,7 +2483,7 @@ padding: 10px 0px;
     
 color: red;
     
-font-weight: 600;
+font-weight: 400;
 }
 /* all categories list page end here  */
 
@@ -2552,22 +2552,9 @@ padding: 3px 5px;
     padding: 0px 10px;        
     border-left: 1px solid #afafaf;
 }
-/* tab and mobile hide and show  */
-.tab_hide{ 
-    display: block; /* Hide less then 1200px */
-}
-.mini_tab_hide{
-    display: block; /* Hide less then 1200px */
-}
-.mini_tab_show{
-    display: none;
-}
-.mobile_view{
-    display: none;
-}
-.desktop_view{
-    display: block;
-}
+
+
+
 .cart_count{
 
 position: relative;
@@ -2639,6 +2626,25 @@ padding: 3px 0px;
 .not_included .img_title img{
     opacity: .5;
 }
+/* tab and mobile hide and show  */
+.tab_hide{ 
+    display: block; /* Hide less then 1200px */
+}
+.tab_show{
+    display: none;
+}
+.mini_tab_hide{
+    display: block; /* Hide less then 1200px */
+}
+.mini_tab_show{
+    display: none;
+}
+.mobile_view{
+    display: none;
+}
+.desktop_view{
+    display: block;
+}
 
 @media(max-width: 1200px){
     .tab_hide{
@@ -2655,6 +2661,9 @@ padding: 3px 0px;
     .logo a {
         font-size: 16px;
     }
+    .tab_show{
+        display: block;
+    }
 }
 @media(max-width: 768px){
     
@@ -2662,6 +2671,9 @@ padding: 3px 0px;
         display: block !important;
     }
     .desktop_view{
+        display: none;
+    }
+    .tab_show{
         display: none;
     }
 

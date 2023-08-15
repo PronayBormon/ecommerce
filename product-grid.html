@@ -37,18 +37,9 @@
 
   </head>
   <body class="bg-light">
-    
-    <!-- top bannar  -->
-    <div class="top_bannar" id="top">
-      <div class="container">
-        <div class="col-12">
-          <img src="images/jumia_top_ads.gif" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
 
     <!-- logo and payment option -->
-    <div class="links">
+    <div class="links desktop_view">
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -72,113 +63,130 @@
     <!-- navbar section start here  -->
     <section class="search_bar">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-4">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="logo nav_tab">
+              <!-- mobile view sidebar  -->
+              <button type="button" class="btn_menu mobile_view" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-bars-staggered"></i></button>
+
+              <!-- sidebar offcanvas  -->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ecommerce</h5>
+                </div>
+                <div class="offcanvas-body">
+                  <!-- offf canvas start here  -->
+                  <div class="side_nav">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>My Ecommerce Account</h6>
+
+                                    <i  class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-box"></i>Order</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-regular fa-comment-dots"></i>Pending Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-ticket-simple"></i>Voucher </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-heart"></i>Save items </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Categories</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-apple-whole"></i>Supermarket</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-notes-medical"></i>Health & Beauty </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i> Home & Office </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Computer </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-person-dress"></i>Woman Fashion </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Service</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms and condition</a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+
               <!-- mini tab view navbar here  -->
-              <button type="button" class="btn_menu "><i class="fa-solid fa-bars-staggered"></i></button>
-              <div class="">
+              <div class="nav_bar desktop_view">
+                <button type="button" class="btn_menu"><i class="fa-solid fa-bars-staggered"></i></button>
                 <div class="nav_menu nav_op ">
                   <nav>
                     <ul>
                       <li>
-                        <a href="index.html"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
                         <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
                         <div class="sub_menu">
                           <div class="row">
@@ -371,201 +379,7 @@
                             </div>
                           </div>
                         </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
                       </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
                       <li>
                         <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
                         <div class="sub_menu">
@@ -663,6 +477,104 @@
                           </div>
                         </div>
                       </li>
+                      <li>
+                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
+                        <div class="sub_menu">
+                          <div class="row">
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
+                        <div class="sub_menu">
+                          <div class="row">
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub1</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                              
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub1</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                
+                                <li><a href="#">sub1</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-4">
+                              <h6><a href="#">Title</a></h6>
+                              <ul>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                                <li><a href="#">sub</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      
                     </ul>
                   </nav>
                 </div>
@@ -670,15 +582,16 @@
              <!-- nav end  -->
              
 
-              <a href="#">Ecommerce <i class=" fa-regular fa-star"></i></a>
+              <a href="index.html">Ecommerce <i class=" fa-regular fa-star"></i></a>
             </div>            
           </div>
-          <div class="col-6">
-            <form action="">
+          <div class="col-6 desktop_view mini_tab_hide">
+            <form action="" class="">
               <i class="fa-solid fa-magnifying-glass"></i>
               <input type="text" name="" id="" placeholder="search product, brand and Categories" class="form-control"> <button type="button">Search</button>
             </form>
           </div>
+          <!-- desktop_view options  -->
           <div class="col-lg-3 col-md-2 col-2 mini_tab_hide">
             <div class="menus">
               <div class="dropdown">
@@ -703,9 +616,92 @@
                 </ul>
               </div>
               <!-- cart  -->
-              <a href="cart.html"><i class="fas fa-cart-shopping"></i>Cart</a>
+              <a href="cart.html" class="cart_count" ><i class="fas fa-cart-shopping"></i><span style="top: -16px;">9</span>Cart</a>
             </div>
           </div>
+          <!-- mobile view options  -->
+          <div class="col-6 ms-auto mini_tab_show mobile_view">
+            <div class="mobile_nav_option">
+              <a class="search_form"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="user-account.html"><i class="fa-solid fa-user"></i></a>
+              <a href="cart.html" class="cart_count"><i class="fa-solid fa-cart-shopping"></i><span>99</span></a>
+            </div>
+          </div>
+          <!-- search modal  -->
+          <div class="search_form_modal  ">
+            <div class="search_box_main">
+                <div class="bar_search ">
+                  <div>
+                    <a class="close_search_modal"><i class="fa-solid fa-arrow-left"></i></a>
+                  </div>
+                  <div>
+                    <input type="text" name="" placeholder="Search Product, Brands, Categories" id="">
+                  </div>
+                  <div>
+                    <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -1894,6 +1890,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
     <script src="js/priceRange.js"></script>
     <script src="js/star-rating.js"></script> <!--star rating-->
+    <script src="js/search_modal.js"></script> <!--Search Modal script-->
     <script>
         $(document).ready(function(){
             $(".filter_btn").on('click', function(){
