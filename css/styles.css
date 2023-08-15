@@ -2538,6 +2538,7 @@ padding: 3px 5px;
     display: flex;
     align-items: center;
     width: 5%;
+    margin-right: 3px;
 }
 .bar_search input{
     width: 100%;
