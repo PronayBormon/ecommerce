@@ -33,17 +33,9 @@
   </head>
   <body>
     
-    <!-- top bannar  -->
-    <div class="top_bannar" id="top">
-      <div class="container">
-        <div class="col-12">
-          <img src="images/jumia_top_ads.gif" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
-
+   
     <!-- logo and payment option -->
-    <div class="links">
+    <div class="links desktop_view">
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -67,12 +59,126 @@
     <!-- navbar section start here  -->
     <section class="search_bar">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-4">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="logo nav_tab">
+              <!-- mobile view sidebar  -->
+              <button type="button" class="btn_menu mobile_view" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-bars-staggered"></i></button>
+
+              <!-- sidebar offcanvas  -->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ecommerce</h5>
+                </div>
+                <div class="offcanvas-body">
+                  <!-- offf canvas start here  -->
+                  <div class="side_nav">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>My Ecommerce Account</h6>
+
+                                    <i  class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-box"></i>Order</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-regular fa-comment-dots"></i>Pending Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-ticket-simple"></i>Voucher </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-heart"></i>Save items </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Categories</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-apple-whole"></i>Supermarket</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-notes-medical"></i>Health & Beauty </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i> Home & Office </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Computer </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-person-dress"></i>Woman Fashion </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Service</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms and condition</a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+
               <!-- mini tab view navbar here  -->
-              <button type="button" class="btn_menu "><i class="fa-solid fa-bars-staggered"></i></button>
-              <div class="">
+              <div class="nav_bar desktop_view">
+                <button type="button" class="btn_menu"><i class="fa-solid fa-bars-staggered"></i></button>
                 <div class="nav_menu nav_op ">
                   <nav>
                     <ul>
@@ -366,201 +472,7 @@
                             </div>
                           </div>
                         </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
                       </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
                       <li>
                         <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
                         <div class="sub_menu">
@@ -658,6 +570,7 @@
                           </div>
                         </div>
                       </li>
+                      
                     </ul>
                   </nav>
                 </div>
@@ -668,12 +581,13 @@
               <a href="index.html">Ecommerce <i class=" fa-regular fa-star"></i></a>
             </div>            
           </div>
-          <div class="col-6">
-            <form action="">
+          <div class="col-6 desktop_view mini_tab_hide">
+            <form action="" class="">
               <i class="fa-solid fa-magnifying-glass"></i>
               <input type="text" name="" id="" placeholder="search product, brand and Categories" class="form-control"> <button type="button">Search</button>
             </form>
           </div>
+          <!-- desktop_view options  -->
           <div class="col-lg-3 col-md-2 col-2 mini_tab_hide">
             <div class="menus">
               <div class="dropdown">
@@ -701,6 +615,89 @@
               <a href="cart.html"><i class="fas fa-cart-shopping"></i>Cart</a>
             </div>
           </div>
+          <!-- mobile view options  -->
+          <div class="col-6 ms-auto mini_tab_show mobile_view">
+            <div class="mobile_nav_option">
+              <a class="search_form"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="user-account.html"><i class="fa-solid fa-user"></i></a>
+              <a href="cart.html" class="cart_count"><i class="fa-solid fa-cart-shopping"></i><span>99</span></a>
+            </div>
+          </div>
+          <!-- search modal  -->
+          <div class="search_form_modal  ">
+            <div class="search_box_main">
+                <div class="bar_search ">
+                  <div>
+                    <a class="close_search_modal"><i class="fa-solid fa-arrow-left"></i></a>
+                  </div>
+                  <div>
+                    <input type="text" name="" placeholder="Search Product, Brands, Categories" id="">
+                  </div>
+                  <div>
+                    <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -746,8 +743,8 @@
                                         <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                         <span>-10%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -757,8 +754,8 @@
                                         <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                         <span>-100%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -768,8 +765,8 @@
                                 <img src="images/product(3).jpg" class=" img-fluid" alt="">
                                 <span>-59%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -779,8 +776,8 @@
                                 <img src="images/product(4).jpg" class=" img-fluid" alt="">
                                 <span>-55%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -790,8 +787,8 @@
                                 <img src="images/product(5).jpg" class=" img-fluid" alt="">
                                 <span>-50%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -801,8 +798,8 @@
                                 <img src="images/product(6).jpg" class=" img-fluid" alt="">
                                 <span>-80%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -812,8 +809,8 @@
                                 <img src="images/product(7).jpg" class=" img-fluid" alt="">
                                 <span>-90%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -823,8 +820,8 @@
                                 <img src="images/product(8).jpg" class=" img-fluid" alt="">
                                 <span>-10%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -922,7 +919,7 @@
                                         <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                         <span>-10%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
+                                        <h6>  2,000TK</h6>
                                         <h6><strike>Price: 2,000TK</strike></h6>
                                     </div>
                                 </a>
@@ -1657,697 +1654,695 @@
         
         <!-- product grid part start here  -->
         <div class="row">
-            <div class="col-12">
-                <div class="product_section">
-                    <div class="row px-2">
-                        <!-- sidebar fillter  -->
-                        <div class="col-md-4 desktop_view">
-                            <div class="left_side_product">
-                                <div class="category_list">
-                                    <h6>Category</h6>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Computing</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Electronics</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Phone & tablates</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Fashion</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Home & office </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Grocery</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Health & beauty</a>
-                                        </li>
-                                        
-                                        <li>
-                                            <a href="#">Baby Product</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="delivery_list">
-                                    <h6>Express delivery</h6>
-                                    <ul>
-                                        <li>
-                                            <input type="checkbox"><label for="">DHL </label>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="delivery_list">
-                                    <h6>Shipped from </h6>
-                                    <ul>
-                                        <li>
-                                            <input type="radio" checked name="from" id="from"><label for="from">From Bangladesh </label>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="from" id="from"><label for="from">From Bangladesh </label>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="brands_list">
-                                    <h6>Brand</h6>
-                                    <div class="search_side">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                        <input type="text" class="form-control" placeholder="Search">
+          <div class="col-12">
+              <div class="product_section">
+                  <div class="row px-2">
+                      <!-- sidebar fillter  -->
+                      <div class="col-md-4 desktop_view">
+                          <div class="left_side_product">
+                              <div class="category_list">
+                                  <h6>Category</h6>
+                                  <ul>
+                                      <li>
+                                          <a href="#">Computing</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Electronics</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Phone & tablates</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Fashion</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Home & office </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Grocery</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Health & beauty</a>
+                                      </li>
+                                      
+                                      <li>
+                                          <a href="#">Baby Product</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="delivery_list">
+                                  <h6>Express delivery</h6>
+                                  <ul>
+                                      <li>
+                                          <input type="checkbox"><label for="">DHL </label>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="delivery_list">
+                                  <h6>Shipped from </h6>
+                                  <ul>
+                                      <li>
+                                          <input type="radio" checked name="from" id="from"><label for="from">From Bangladesh </label>
+                                      </li>
+                                      <li>
+                                          <input type="radio" name="from" id="from"><label for="from">From Bangladesh </label>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="brands_list">
+                                  <h6>Brand</h6>
+                                  <div class="search_side">
+                                      <i class="fa-solid fa-magnifying-glass"></i>
+                                      <input type="text" class="form-control" placeholder="Search">
+                                  </div>
+                                  <ul class="brand_scroll">
+                                      <li>
+                                          <input type="checkbox"><label for="">Addidas  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">AGM  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Apple  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Walton  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Addidas  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">AGM  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Apple  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Walton  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Addidas  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">AGM  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Apple  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Walton  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Addidas  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">AGM  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Apple  </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Walton  </label>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="price_range">
+                                  <div class="sidebr_title">                                        
+                                  <h6>Price Range </h6>
+                                  <button type="button" class="btn_apply">Apply</button>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                        <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+                    
+                                        <div class="d-flex" style="margin:10px auto">
+                                            <input type="number" style="width: 45%;margin: 0px 3px;" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+                                            <input type="number"  style="width: 45%;margin: 0px 3px" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
+                                        </div>
+                    
+                                        <!-- <button class="price-range-search" id="price-range-submit">Search</button>
+                    
+                                        <div id="searchResults" class="search-results-block"></div> -->
                                     </div>
-                                    <ul class="brand_scroll">
-                                        <li>
-                                            <input type="checkbox"><label for="">Addidas  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">AGM  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Apple  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Walton  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Addidas  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">AGM  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Apple  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Walton  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Addidas  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">AGM  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Apple  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Walton  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Addidas  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">AGM  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Apple  </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Walton  </label>
-                                        </li>
-                                    </ul>
                                 </div>
-                                <div class="price_range">
-                                    <div class="sidebr_title">                                        
-                                    <h6>Price Range </h6>
-                                    <button type="button" class="btn_apply">Apply</button>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                          <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
-                      
-                                          <div class="d-flex" style="margin:10px auto">
-                                              <input type="number" style="width: 45%;margin: 0px 3px;" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
-                                              <input type="number"  style="width: 45%;margin: 0px 3px" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
+                              </div>
+                              <div class="brands_list">
+                                  <h6>size</h6>
+                                  <div class="search_side">
+                                      <i class="fa-solid fa-magnifying-glass"></i>
+                                      <input type="text" class="form-control" placeholder="Search">
+                                  </div>
+                                  <ul class="brand_scroll">
+                                      <li>
+                                          <input type="checkbox"><label for="">XS</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">S</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">L</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">M </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">XL </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">XXL </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">XXL </label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">0-2 Years</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">2-3 Years</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">3-5 Years</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">5-7 Years</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">7-10 Years</label>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="brands_list">
+                                  <h6>Gender</h6>
+                                  
+                                  <ul class="brand_scroll">
+                                      <li>
+                                          <input type="checkbox"><label for="">Boys</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Girls</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Man</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Woman</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Male</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Female</label>
+                                      </li>
+                                      <li>
+                                          <input type="checkbox"><label for="">Teen</label>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- grid  -->
+                      <div class="col-md-8">
+                          <div class="product_list">
+                              <div class="title_product">
+                                  <div><h6>Officail Store Deals</h6></div>
+                                  <div>
+                                      <label for="">Short By:</label>
+                                      <select name="" id="">
+                                          <option value="">Popularity</option>
+                                          <option value="">New arrival</option>
+                                          <option value="">Low to High</option>
+                                          <option value="">high to low</option>
+                                      </select>
+                                  </div>                                
+                              </div>
+                              <div class="grid_list">
+                                  <div><p>5,000 product found</p></div>
+                                  <div class="d-flex">
+                                      <a type="button" class="filter_btn mobile_view" ><i class="fa-solid fa-sliders"></i></a>
+                                      <a href="product-list.html"><i class="fa-solid fa-list"></i></a>
+                                      <a href="product-grid.html" class="active"><i class="fa-solid fa-grip"></i></a>
+                                  </div>
+                                  <div class="filter_modal">
+                                      <div class="row px-4">
+                                          <div class="col-6"></div>
+                                          <div class="col-6 text-end "><i class="fa-solid fa-x filter_close" style="cursor: pointer;"></i></div>
+                                      </div>
+                                      <div class="modal_fdiv">
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <div class="left_side_product">
+                                                      <div class="category_list">
+                                                          <h6>Category</h6>
+                                                          <ul>
+                                                              <li>
+                                                                  <a href="#">Computing</a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Electronics</a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Phone & tablates</a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Fashion</a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Home & office </a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Grocery</a>
+                                                              </li>
+                                                              <li>
+                                                                  <a href="#">Health & beauty</a>
+                                                              </li>
+                                                              
+                                                              <li>
+                                                                  <a href="#">Baby Product</a>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="delivery_list">
+                                                          <h6>Express delivery</h6>
+                                                          <ul>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">DHL </label>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="delivery_list">
+                                                          <h6>Shipped from </h6>
+                                                          <ul>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">From Bangladesh </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">From Bangladesh </label>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="brands_list">
+                                                          <h6>Brand</h6>
+                                                          <div class="search_side">
+                                                              <i class="fa-solid fa-magnifying-glass"></i>
+                                                              <input type="text" class="form-control" placeholder="Search">
+                                                          </div>
+                                                          <ul class="brand_scroll">
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Addidas  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">AGM  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Apple  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Walton  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Addidas  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">AGM  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Apple  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Walton  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Addidas  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">AGM  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Apple  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Walton  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Addidas  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">AGM  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Apple  </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Walton  </label>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="price_range">
+                                                          <div class="sidebr_title">                                        
+                                                          <h6>Price Range </h6>
+                                                          <button type="button" class="btn_apply">Apply</button>
+                                                          </div>
+                                                          <div class="row">
+                                                              <div class="col-md-12">
+                                                                <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+                                            
+                                                                <div class="d-flex" style="margin:10px auto">
+                                                                    <input type="number" style="width: 45%;margin: 0px 3px;" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
+                                                                    <input type="number"  style="width: 45%;margin: 0px 3px" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
+                                                                </div>
+                                            
+                                                                <!-- <button class="price-range-search" id="price-range-submit">Search</button>
+                                            
+                                                                <div id="searchResults" class="search-results-block"></div> -->
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="brands_list">
+                                                          <h6>size</h6>
+                                                          <div class="search_side">
+                                                              <i class="fa-solid fa-magnifying-glass"></i>
+                                                              <input type="text" class="form-control" placeholder="Search">
+                                                          </div>
+                                                          <ul class="brand_scroll">
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">XS</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">S</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">L</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">M </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">XL </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">XXL </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">XXL </label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">0-2 Years</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">2-3 Years</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">3-5 Years</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">5-7 Years</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">7-10 Years</label>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="brands_list">
+                                                          <h6>Gender</h6>
+                                                          
+                                                          <ul class="brand_scroll">
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Boys</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Girls</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Man</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Woman</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Male</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Female</label>
+                                                              </li>
+                                                              <li>
+                                                                  <input type="checkbox"><label for="">Teen</label>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                           </div>
-                      
-                                          <!-- <button class="price-range-search" id="price-range-submit">Search</button>
-                      
-                                          <div id="searchResults" class="search-results-block"></div> -->
                                       </div>
                                   </div>
-                                </div>
-                                <div class="brands_list">
-                                    <h6>size</h6>
-                                    <div class="search_side">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                        <input type="text" class="form-control" placeholder="Search">
-                                    </div>
-                                    <ul class="brand_scroll">
-                                        <li>
-                                            <input type="checkbox"><label for="">XS</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">S</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">L</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">M </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">XL </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">XXL </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">XXL </label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">0-2 Years</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">2-3 Years</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">3-5 Years</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">5-7 Years</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">7-10 Years</label>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="brands_list">
-                                    <h6>Gender</h6>
-                                    
-                                    <ul class="brand_scroll">
-                                        <li>
-                                            <input type="checkbox"><label for="">Boys</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Girls</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Man</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Woman</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Male</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Female</label>
-                                        </li>
-                                        <li>
-                                            <input type="checkbox"><label for="">Teen</label>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- grid  -->
-                        <div class="col-md-8">
-                            <div class="product_list">
-                                <div class="title_product">
-                                    <div><h6>Officail Store Deals</h6></div>
-                                    <div>
-                                        <label for="">Short By:</label>
-                                        <select name="" id="">
-                                            <option value="">Popularity</option>
-                                            <option value="">New arrival</option>
-                                            <option value="">Low to High</option>
-                                            <option value="">high to low</option>
-                                        </select>
-                                    </div>                                
-                                </div>
-                                <div class="grid_list">
-                                    <div><p>5,000 product found</p></div>
-                                    <div class="d-flex">
-                                        <a type="button" class="filter_btn mobile_view" ><i class="fa-solid fa-sliders"></i></a>
-                                        <a href="category-list.html"><i class="fa-solid fa-list"></i></a>
-                                        <a href="category-grid.html" class="active"><i class="fa-solid fa-grip"></i></a>
-                                    </div>
-                                    <div class="filter_modal">
-                                        <div class="row px-4">
-                                            <div class="col-6"></div>
-                                            <div class="col-6 text-end "><i class="fa-solid fa-x filter_close" style="cursor: pointer;"></i></div>
-                                        </div>
-                                        <div class="modal_fdiv">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="left_side_product">
-                                                        <div class="category_list">
-                                                            <h6>Category</h6>
-                                                            <ul>
-                                                                <li>
-                                                                    <a href="#">Computing</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Electronics</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Phone & tablates</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Fashion</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Home & office </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Grocery</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">Health & beauty</a>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <a href="#">Baby Product</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="delivery_list">
-                                                            <h6>Express delivery</h6>
-                                                            <ul>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">DHL </label>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="delivery_list">
-                                                            <h6>Shipped from </h6>
-                                                            <ul>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">From Bangladesh </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">From Bangladesh </label>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="brands_list">
-                                                            <h6>Brand</h6>
-                                                            <div class="search_side">
-                                                                <i class="fa-solid fa-magnifying-glass"></i>
-                                                                <input type="text" class="form-control" placeholder="Search">
-                                                            </div>
-                                                            <ul class="brand_scroll">
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Addidas  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">AGM  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Apple  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Walton  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Addidas  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">AGM  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Apple  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Walton  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Addidas  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">AGM  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Apple  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Walton  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Addidas  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">AGM  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Apple  </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Walton  </label>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="price_range">
-                                                            <div class="sidebr_title">                                        
-                                                            <h6>Price Range </h6>
-                                                            <button type="button" class="btn_apply">Apply</button>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-12">
-                                                                  <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
-                                              
-                                                                  <div class="d-flex" style="margin:10px auto">
-                                                                      <input type="number" style="width: 45%;margin: 0px 3px;" min=0 max="9900" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field" />
-                                                                      <input type="number"  style="width: 45%;margin: 0px 3px" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
-                                                                  </div>
-                                              
-                                                                  <!-- <button class="price-range-search" id="price-range-submit">Search</button>
-                                              
-                                                                  <div id="searchResults" class="search-results-block"></div> -->
-                                                              </div>
-                                                          </div>
-                                                        </div>
-                                                        <div class="brands_list">
-                                                            <h6>size</h6>
-                                                            <div class="search_side">
-                                                                <i class="fa-solid fa-magnifying-glass"></i>
-                                                                <input type="text" class="form-control" placeholder="Search">
-                                                            </div>
-                                                            <ul class="brand_scroll">
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">XS</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">S</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">L</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">M </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">XL </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">XXL </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">XXL </label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">0-2 Years</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">2-3 Years</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">3-5 Years</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">5-7 Years</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">7-10 Years</label>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="brands_list">
-                                                            <h6>Gender</h6>
-                                                            
-                                                            <ul class="brand_scroll">
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Boys</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Girls</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Man</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Woman</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Male</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Female</label>
-                                                                </li>
-                                                                <li>
-                                                                    <input type="checkbox"><label for="">Teen</label>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                              </div>
+                              
+                              <div class="row">
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(1).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">                                                    
+                                                  <div class="rating">
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star "></i>
+                                                  </div>
+                                                  <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(2).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                  <div class="rating">
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star "></i>
+                                                  </div>
+                                                  <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(3).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(1).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(4).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(2).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(5).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(3).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(6).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(4).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(7).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(5).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(8).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(6).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                      <a href="product-details.html">
+                                          <div class="product_grid">
+                                              <img src="images/product(9).jpg" class="img-fluid" alt="">
+                                              <span>Free Delivery</span>
+                                              <strong>Official Store </strong>
+                                              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
+                                              <p>TK 6,500</p>
+                                              <p><strike>TK 6,500</strike> <span>-5%</span></p>
+                                              <div class="d-flex align-items-center">
+                                                <div class="rating">
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star checked"></i>
+                                                  <i class="fa fa-star "></i>
                                                 </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(7).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
-                                                </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(8).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
-                                                </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
-                                        <a href="product-details.html">
-                                            <div class="product_grid">
-                                                <img src="images/product(9).jpg" class="img-fluid" alt="">
-                                                <span>Free Delivery</span>
-                                                <strong>Official Store </strong>
-                                                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, totam!</h1>
-                                                <p>TK 6,500</p>
-                                                <p><strike>TK 6,500</strike> <span>-5%</span></p>
-                                                <div class="d-flex align-items-center">
-                                                    <ul class="ratingW">
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li class="on"><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li ><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                        <li><a href="javascript:void(0);"><div class="star"></div></a></li>
-                                                    </ul>
-                                                    <h6>(200)</h6>
-                                                </div>
-                                                <button type="button" class="btn_cart">Add to cart </button>
-                                                <!-- <button type="button" class="btn_sold">SoldOut</button> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                   
-                                    
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="pagination">
-                                            <ul>
-                                                <li>
-                                                    <a href="#"> prv </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="active"> 1 </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"> 2 </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"> 3 </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"> next </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                                <h6>(200)</h6>
+                                              </div>
+                                              <button type="button" class="btn_cart">Add to cart </button>
+                                              <!-- <button type="button" class="btn_sold">SoldOut</button> -->
+                                          </div>
+                                      </a>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-12">
+                                      <div class="pagination">
+                                          <ul>
+                                              <li>
+                                                  <a href="#"> prv </a>
+                                              </li>
+                                              <li>
+                                                  <a href="#" class="active"> 1 </a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"> 2 </a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"> 3 </a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"> next </a>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
         <!-- product grid part end here  -->
 
@@ -2370,8 +2365,8 @@
                         <img src="images/product(1).jpg" class=" img-fluid" alt="">
                         <span>-10%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2381,8 +2376,8 @@
                         <img src="images/product(2).jpg" class=" img-fluid" alt="">
                         <span>-100%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2392,8 +2387,8 @@
                         <img src="images/product(3).jpg" class=" img-fluid" alt="">
                         <span>-59%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2403,8 +2398,8 @@
                         <img src="images/product(4).jpg" class=" img-fluid" alt="">
                         <span>-55%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2414,8 +2409,8 @@
                         <img src="images/product(5).jpg" class=" img-fluid" alt="">
                         <span>-50%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2425,8 +2420,8 @@
                         <img src="images/product(6).jpg" class=" img-fluid" alt="">
                         <span>-80%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2436,8 +2431,8 @@
                         <img src="images/product(7).jpg" class=" img-fluid" alt="">
                         <span>-90%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>
@@ -2447,8 +2442,8 @@
                         <img src="images/product(8).jpg" class=" img-fluid" alt="">
                         <span>-10%</span>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                        <h6>Price: 2,000TK</h6>
-                        <h6><strike>Price: 2,000TK</strike></h6>
+                        <h6>  2,000TK</h6>
+                        <h6><strike>  2,000TK</strike></h6>
                     </div>
                     </a>
                 </div>

@@ -33,17 +33,9 @@
   </head>
   <body>
     
-    <!-- top bannar  -->
-    <div class="top_bannar" id="top">
-      <div class="container">
-        <div class="col-12">
-          <img src="images/jumia_top_ads.gif" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
 
     <!-- logo and payment option -->
-    <div class="links">
+    <div class="links desktop_view">
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -67,12 +59,126 @@
     <!-- navbar section start here  -->
     <section class="search_bar">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-4">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-md-4 col-6">
             <div class="logo nav_tab">
+              <!-- mobile view sidebar  -->
+              <button type="button" class="btn_menu mobile_view" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-bars-staggered"></i></button>
+
+              <!-- sidebar offcanvas  -->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ecommerce</h5>
+                </div>
+                <div class="offcanvas-body">
+                  <!-- offf canvas start here  -->
+                  <div class="side_nav">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>My Ecommerce Account</h6>
+
+                                    <i  class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-box"></i>Order</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-regular fa-comment-dots"></i>Pending Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-ticket-simple"></i>Voucher </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-heart"></i>Save items </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Categories</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-apple-whole"></i>Supermarket</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-notes-medical"></i>Health & Beauty </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i> Home & Office </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Computer </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-person-dress"></i>Woman Fashion </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="sidenav_title">
+                                <a href="user-profile.html">
+                                    <h6>Our Service</h6>
+                                    <p>See all </p>
+                                </a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phone&tablates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-tv"></i> Electronics</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms and condition</a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+
               <!-- mini tab view navbar here  -->
-              <button type="button" class="btn_menu "><i class="fa-solid fa-bars-staggered"></i></button>
-              <div class="">
+              <div class="nav_bar desktop_view">
+                <button type="button" class="btn_menu"><i class="fa-solid fa-bars-staggered"></i></button>
                 <div class="nav_menu nav_op ">
                   <nav>
                     <ul>
@@ -366,201 +472,7 @@
                             </div>
                           </div>
                         </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
                       </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
-                        <div class="sub_menu">
-                          <div class="row">
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                              
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                
-                                <li><a href="#">sub1</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                            <div class="col-4">
-                              <h6><a href="#">Title</a></h6>
-                              <ul>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                                <li><a href="#">sub</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </li>                    
                       <li>
                         <a href="#"><i class="fa-solid fa-apple-whole"></i>Super market</a>
                         <div class="sub_menu">
@@ -658,6 +570,7 @@
                           </div>
                         </div>
                       </li>
+                      
                     </ul>
                   </nav>
                 </div>
@@ -668,12 +581,13 @@
               <a href="index.html">Ecommerce <i class=" fa-regular fa-star"></i></a>
             </div>            
           </div>
-          <div class="col-6">
-            <form action="">
+          <div class="col-6 desktop_view mini_tab_hide">
+            <form action="" class="">
               <i class="fa-solid fa-magnifying-glass"></i>
               <input type="text" name="" id="" placeholder="search product, brand and Categories" class="form-control"> <button type="button">Search</button>
             </form>
           </div>
+          <!-- desktop_view options  -->
           <div class="col-lg-3 col-md-2 col-2 mini_tab_hide">
             <div class="menus">
               <div class="dropdown">
@@ -701,6 +615,89 @@
               <a href="cart.html"><i class="fas fa-cart-shopping"></i>Cart</a>
             </div>
           </div>
+          <!-- mobile view options  -->
+          <div class="col-6 ms-auto mini_tab_show mobile_view">
+            <div class="mobile_nav_option">
+              <a class="search_form"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="user-account.html"><i class="fa-solid fa-user"></i></a>
+              <a href="cart.html" class="cart_count"><i class="fa-solid fa-cart-shopping"></i><span>99</span></a>
+            </div>
+          </div>
+          <!-- search modal  -->
+          <div class="search_form_modal  ">
+            <div class="search_box_main">
+                <div class="bar_search ">
+                  <div>
+                    <a class="close_search_modal"><i class="fa-solid fa-arrow-left"></i></a>
+                  </div>
+                  <div>
+                    <input type="text" name="" placeholder="Search Product, Brands, Categories" id="">
+                  </div>
+                  <div>
+                    <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <img src="images/product(1).jpg" alt="">
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                  <li>
+                    <a href="product-details.html">Cat ,Product or brand name here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum nemo iste hic nobis, porro iusto officiis eum sit eos!</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -746,8 +743,8 @@
                                         <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                         <span>-10%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -757,8 +754,8 @@
                                         <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                         <span>-100%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -768,8 +765,8 @@
                                 <img src="images/product(3).jpg" class=" img-fluid" alt="">
                                 <span>-59%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -779,8 +776,8 @@
                                 <img src="images/product(4).jpg" class=" img-fluid" alt="">
                                 <span>-55%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -790,8 +787,8 @@
                                 <img src="images/product(5).jpg" class=" img-fluid" alt="">
                                 <span>-50%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -801,8 +798,8 @@
                                 <img src="images/product(6).jpg" class=" img-fluid" alt="">
                                 <span>-80%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -812,8 +809,8 @@
                                 <img src="images/product(7).jpg" class=" img-fluid" alt="">
                                 <span>-90%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -823,8 +820,8 @@
                                 <img src="images/product(8).jpg" class=" img-fluid" alt="">
                                 <span>-10%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -922,8 +919,8 @@
                                         <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                         <span>-10%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -933,8 +930,8 @@
                                         <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                         <span>-100%</span>
                                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                        <h6>Price: 2,000TK</h6>
-                                        <h6><strike>Price: 2,000TK</strike></h6>
+                                        <h6>  2,000TK</h6>
+                                        <h6><strike>  2,000TK</strike></h6>
                                     </div>
                                 </a>
                             </div>
@@ -944,8 +941,8 @@
                                 <img src="images/product(3).jpg" class=" img-fluid" alt="">
                                 <span>-59%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -955,8 +952,8 @@
                                 <img src="images/product(4).jpg" class=" img-fluid" alt="">
                                 <span>-55%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -966,8 +963,8 @@
                                 <img src="images/product(5).jpg" class=" img-fluid" alt="">
                                 <span>-50%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -977,8 +974,8 @@
                                 <img src="images/product(6).jpg" class=" img-fluid" alt="">
                                 <span>-80%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -988,8 +985,8 @@
                                 <img src="images/product(7).jpg" class=" img-fluid" alt="">
                                 <span>-90%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
-                                <h6><strike>Price: 2,000TK</strike></h6>
+                                <h6>  2,000TK</h6>
+                                <h6><strike>  2,000TK</strike></h6>
                                 </div>
                             </a>
                             </div>
@@ -999,7 +996,7 @@
                                 <img src="images/product(8).jpg" class=" img-fluid" alt="">
                                 <span>-10%</span>
                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                <h6>Price: 2,000TK</h6>
+                                <h6>  2,000TK</h6>
                                 <h6><strike>Price: 2,000TK</strike></h6>
                                 </div>
                             </a>
@@ -1260,8 +1257,8 @@
                               <img src="images/product(5).jpg" class=" img-fluid" alt="">
                               <span>-50%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6> 2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1271,8 +1268,8 @@
                               <img src="images/product(6).jpg" class=" img-fluid" alt="">
                               <span>-80%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1282,8 +1279,8 @@
                               <img src="images/product(7).jpg" class=" img-fluid" alt="">
                               <span>-90%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1293,8 +1290,8 @@
                               <img src="images/product(8).jpg" class=" img-fluid" alt="">
                               <span>-10%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1331,8 +1328,8 @@
                                       <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                       <span>-10%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1342,8 +1339,8 @@
                                       <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                       <span>-100%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1353,8 +1350,8 @@
                               <img src="images/product(3).jpg" class=" img-fluid" alt="">
                               <span>-59%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1364,8 +1361,8 @@
                               <img src="images/product(4).jpg" class=" img-fluid" alt="">
                               <span>-55%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1375,8 +1372,8 @@
                               <img src="images/product(5).jpg" class=" img-fluid" alt="">
                               <span>-50%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1386,8 +1383,8 @@
                               <img src="images/product(6).jpg" class=" img-fluid" alt="">
                               <span>-80%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1397,8 +1394,8 @@
                               <img src="images/product(7).jpg" class=" img-fluid" alt="">
                               <span>-90%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1408,8 +1405,8 @@
                               <img src="images/product(8).jpg" class=" img-fluid" alt="">
                               <span>-10%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1446,8 +1443,8 @@
                                       <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                       <span>-10%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1457,8 +1454,8 @@
                                       <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                       <span>-100%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1468,8 +1465,8 @@
                               <img src="images/product(3).jpg" class=" img-fluid" alt="">
                               <span>-59%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1479,8 +1476,8 @@
                               <img src="images/product(4).jpg" class=" img-fluid" alt="">
                               <span>-55%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1490,8 +1487,8 @@
                               <img src="images/product(5).jpg" class=" img-fluid" alt="">
                               <span>-50%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1501,8 +1498,8 @@
                               <img src="images/product(6).jpg" class=" img-fluid" alt="">
                               <span>-80%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1512,8 +1509,8 @@
                               <img src="images/product(7).jpg" class=" img-fluid" alt="">
                               <span>-90%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1523,8 +1520,8 @@
                               <img src="images/product(8).jpg" class=" img-fluid" alt="">
                               <span>-10%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1562,8 +1559,8 @@
                                       <img src="images/product(1).jpg" class=" img-fluid" alt="">
                                       <span>-10%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1573,8 +1570,8 @@
                                       <img src="images/product(2).jpg" class=" img-fluid" alt="">
                                       <span>-100%</span>
                                       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                                      <h6>Price: 2,000TK</h6>
-                                      <h6><strike>Price: 2,000TK</strike></h6>
+                                      <h6>  2,000TK</h6>
+                                      <h6><strike>  2,000TK</strike></h6>
                                   </div>
                               </a>
                           </div>
@@ -1584,8 +1581,8 @@
                               <img src="images/product(3).jpg" class=" img-fluid" alt="">
                               <span>-59%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1595,8 +1592,8 @@
                               <img src="images/product(4).jpg" class=" img-fluid" alt="">
                               <span>-55%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1606,8 +1603,8 @@
                               <img src="images/product(5).jpg" class=" img-fluid" alt="">
                               <span>-50%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1617,8 +1614,8 @@
                               <img src="images/product(6).jpg" class=" img-fluid" alt="">
                               <span>-80%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1628,8 +1625,8 @@
                               <img src="images/product(7).jpg" class=" img-fluid" alt="">
                               <span>-90%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1639,8 +1636,8 @@
                               <img src="images/product(8).jpg" class=" img-fluid" alt="">
                               <span>-10%</span>
                               <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                              <h6>Price: 2,000TK</h6>
-                              <h6><strike>Price: 2,000TK</strike></h6>
+                              <h6>  2,000TK</h6>
+                              <h6><strike>  2,000TK</strike></h6>
                               </div>
                           </a>
                           </div>
@@ -1883,8 +1880,8 @@
                                   <div><p>5,000 product found</p></div>
                                   <div class="d-flex">
                                       <a type="button" class="filter_btn mobile_view" ><i class="fa-solid fa-sliders"></i></a>
-                                      <a href="category-list.html" class="active"><i class="fa-solid fa-list"></i></a>
-                                      <a href="category-grid.html"><i class="fa-solid fa-grip"></i></a>
+                                      <a href="product-list.html" class="active"><i class="fa-solid fa-list"></i></a>
+                                      <a href="product-grid.html"><i class="fa-solid fa-grip"></i></a>
                                   </div>
                                   <div class="filter_modal">
                                       <div class="row px-4">
@@ -2111,6 +2108,16 @@
                                             <div class="col pad_ding">
                                                 <strong>Official store </strong>
                                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora eos exercitationem molestias fugit, optio autem at quo perspiciatis!</h5>
+                                                <div class="d-flex align-items-center">
+                                                  <div class="ratings m-0">
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star "></i>
+                                                  </div>
+                                                  <h6 class="m-0">(200)</h6>
+                                                </div>
                                                 <p><i class="fa-brands fa-dhl"></i></p>
                                             </div>
                                             <div class="col pad_ding">
@@ -2132,6 +2139,16 @@
                                             <div class="col pad_ding">
                                                 <strong>Official store </strong>
                                                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora eos exercitationem molestias fugit, optio autem at quo perspiciatis!</h5>
+                                                <div class="d-flex align-items-center">
+                                                  <div class="ratings m-0">
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star "></i>
+                                                  </div>
+                                                  <h6 class="m-0">(200)</h6>
+                                                </div>
                                                 <p><i class="fa-brands fa-dhl"></i></p>
                                             </div>
                                             <div class="col pad_ding">
@@ -2289,7 +2306,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>                       
+                                </div>                     
                               </div>
                               <!-- pagination -->
                               <div class="row">
@@ -2320,120 +2337,120 @@
                   </div>
               </div>
           </div>
-      </div>
-      <!-- product list part end here  -->
+        </div>
+        <!-- product list part end here  -->
 
-    <!-- recent view part start here  -->
-    <div class="row">
-      <div class="col-12">
-        <div class="top_selling">
-          <div class="row mb-2">
-            <div class="col-6">
-              <div class="sell_title">
-                <h5>Recent Views</h5>
+      <!-- recent view part start here  -->
+      <div class="row">
+        <div class="col-12">
+          <div class="top_selling">
+            <div class="row mb-2">
+              <div class="col-6">
+                <div class="sell_title">
+                  <h5>Recent Views</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper pro_slider mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(1).jpg" class=" img-fluid" alt="">
-                    <span>-10%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
+            <div class="swiper pro_slider mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(1).jpg" class=" img-fluid" alt="">
+                      <span>-10%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(2).jpg" class=" img-fluid" alt="">
+                      <span>-100%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(3).jpg" class=" img-fluid" alt="">
+                      <span>-59%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(4).jpg" class=" img-fluid" alt="">
+                      <span>-55%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(5).jpg" class=" img-fluid" alt="">
+                      <span>-50%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(6).jpg" class=" img-fluid" alt="">
+                      <span>-80%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(7).jpg" class=" img-fluid" alt="">
+                      <span>-90%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="sell_itm">
+                      <img src="images/product(8).jpg" class=" img-fluid" alt="">
+                      <span>-10%</span>
+                      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
+                      <h6>  2,000TK</h6>
+                      <h6><strike>  2,000TK</strike></h6>
+                    </div>
+                  </a>
+                </div>
+                
               </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(2).jpg" class=" img-fluid" alt="">
-                    <span>-100%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(3).jpg" class=" img-fluid" alt="">
-                    <span>-59%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(4).jpg" class=" img-fluid" alt="">
-                    <span>-55%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(5).jpg" class=" img-fluid" alt="">
-                    <span>-50%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(6).jpg" class=" img-fluid" alt="">
-                    <span>-80%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(7).jpg" class=" img-fluid" alt="">
-                    <span>-90%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#">
-                  <div class="sell_itm">
-                    <img src="images/product(8).jpg" class=" img-fluid" alt="">
-                    <span>-10%</span>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam nostrum! Qui ad quos provident doloremque nostrum maiores a vitae.</h5>
-                    <h6>Price: 2,000TK</h6>
-                    <h6><strike>Price: 2,000TK</strike></h6>
-                  </div>
-                </a>
-              </div>
-              
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <!-- <div class="swiper-pagination"></div> -->
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
           </div>
         </div>
       </div>
-    </div>
-    <!-- recent view part end here  -->
+      <!-- recent view part end here  -->
 
 
 
