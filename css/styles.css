@@ -1032,6 +1032,7 @@ display: flex;
     visibility: hidden;
     transition: .4s all ease-in-out;
     box-shadow: 0 0 20px #c4c1c1d1;
+    font-size: 14px;
 }
 .btn_sold{    
     width: 100%;        
@@ -1201,7 +1202,13 @@ display: -webkit-box;
 
 color: #1d1c1c;
 }
-.products_list p{margin-top: 40%;font-size: 16px;}
+.products_list p{
+    margin-top: 40%;
+    font-size: 16px;
+}
+.address a{
+
+}
 .products_list p i{
 
 font-size: 40px;
@@ -1287,7 +1294,7 @@ margin-bottom: 15px;
 
 margin: 0;
 
-font-size: 18px;
+font-size: 14px;
 }
 .side_title a:hover i{
     color: #ff9901;
@@ -1923,10 +1930,10 @@ margin-top: 10px;
 
 }
 .right_side_rate h5{
-    font-size: 18px;
+    font-size: 16px;
 }
 .right_side_rate p{
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 5px;
     font-weight: 500;
 }
@@ -2089,13 +2096,14 @@ border-bottom: 1px solid #b4b4b459;
 }
 .img_title span{
     color: #5a5656;
+    font-size: 12px;
 }
 .cart_price{
     text-align: end;
     font-size: 20px;
 }
 .cart_price strong{
-    font-size: 18px;
+    font-size: 16px;
 }
 .number{
     display: flex;
@@ -2132,7 +2140,7 @@ border-bottom: 1px solid #b4b4b459;
     padding-top: 10px;
 }
 .cart_summary h3{
-    font-size: 18px;
+    font-size: 14px;
 }
 .cart_summary h2{
     font-size: 18px;
@@ -2153,10 +2161,10 @@ border-bottom: 1px solid #b4b4b459;
     background: #fff;
 }
 .de_returns h3{
-    font-size: 18px;
-}
-.de_returns p{    
     font-size: 14px;
+}
+.de_returns p{
+    font-size: 13px;
 }
 
 .de_returns p a{
@@ -2181,6 +2189,9 @@ border-bottom: 1px solid #b4b4b459;
 .delivery_addreess h6{
     font-size: 14px;
     text-transform: capitalize;
+}
+.delivery_addreess p{
+    font-size: 14px;
 }
 .address {
     display: flex;
@@ -2254,6 +2265,7 @@ border-bottom: 1px solid #b4b4b459;
     text-align: end;
     margin: auto;
     margin: 0px 5px;
+    font-size: 14px;
 }
 .sub_total{
 
@@ -2627,6 +2639,9 @@ padding: 3px 0px;
 .not_included .img_title img{
     opacity: .5;
 }
+.items_details p{
+
+}
 /* tab and mobile hide and show  */
 .tab_hide{ 
     display: block; /* Hide less then 1200px */
@@ -2742,7 +2757,8 @@ padding: 3px 0px;
         background: transparent !important;
     }
     .feedback h2 {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: 20px;
     }
     .box_rating h3 {
         font-size: 16px;
@@ -2845,7 +2861,7 @@ padding: 3px 0px;
         font-size: 14px;
     }
     .img_title p {
-        font-size: 13px;
+        font-size: 12px;
     }
     .btn_cart {
         font-size: 12px;
@@ -2887,4 +2903,37 @@ padding: 3px 0px;
     .search_box_main ul li a {
         font-size: 10px;
     }
+    .address p {
+        font-size: 12px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .address a {
+        font-size: 12px;
+    }
+    .pickUp_address h6 {
+        font-size: 12px;
+    }
+    .pickUp_address p {
+        font-size: 12px;
+    }
+    .delivery_addreess p,.items_details h5,.items_details p,.items_details p,.items_details span {
+        font-size: 12px;
+    } 
+    .voucher h6 {
+        font-size: 10px;
+    }
+    .voucher a {
+        font-size: 10px;
+    }
+    .cart_sidebar h5 {
+        font-size: 12px;
+    }
+    .cart_sidebar strong,.cart_sidebar p,.pirce_summary table tbody tr td,.delivery_addreess h6{
+        font-size: 12px;
+    }
+}
+.feedback .pagination{
+    border-top: 1px solid #d4d4d4;
 }
