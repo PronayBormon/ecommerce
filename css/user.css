@@ -1,0 +1,342 @@
+
+.user_sidebar{
+
+  background: #fff;
+  
+  margin-top: 10px;
+  
+  border-radius: 10px;
+  
+  padding: 20px;
+  
+  box-shadow: 0 0 20px #ededed;
+  
+  position: sticky;
+  
+  top: 70px;
+  }
+  .user_page_title{
+  
+  border-bottom: 1px solid #ededed;
+  
+  margin-bottom: 20px;
+  }
+  .user_page_title h3{
+  
+  font-size: 18px;
+  }
+  .user_page_title h3 a{
+  
+color: #000;
+  
+display: flex;
+  
+align-items: center;
+  }
+  .user_page_title h3 a i{
+    
+background: #c70039;
+    
+color: #fff;
+    
+padding: 5px;
+    
+border-radius: 50px;
+    
+font-size: 10px;
+    
+margin-right: 5px;
+  }
+  .user_page_list{
+  
+  }
+  .user_page_list ul li a{
+  
+  color: #000;
+  }
+  .user_page_list ul li{
+  
+  font-size: 14px;
+  
+  padding: 10px 5px;
+  
+  border-bottom: 1px solid #ededed;
+  }
+  .user_page_list ul{
+  
+  }
+  .user_page_list ul li:last-child{
+    border-bottom: none;
+  }
+  .main_profile{
+  
+  margin-top: 10px;
+  
+  background: #fff;
+  
+  border-radius: 10px;
+  
+  padding: 20px;
+  
+  box-shadow: 0 0 20px #ededed;
+  }
+  .user{
+  
+text-align: center;
+  
+margin-bottom: 20px;
+  
+/* background: linear-gradient(45deg, #b61616, transparent); */
+  
+padding: 10px 0px;
+  }
+  .user img{
+  
+height: 100px;
+  
+width: 100px;
+  
+border-radius: 50px;
+  
+box-shadow: 2px 3px 10px 3px #900c3f4a;
+  
+object-fit: cover;
+  
+color: #900c3f4a;
+  }
+  .user h3{
+  
+font-size: 18px;
+  
+margin-top: 20px;
+  
+margin-bottom: 0px;
+  }
+  .user p{
+  
+font-size: 14px;
+  }
+  .user p strong{
+  
+  }
+  .user_details{
+  
+  }
+  .user_details h4{
+  
+font-size: 16px;
+  
+text-transform: capitalize;
+  }
+  .btn_edit{
+  
+padding: 5px 20px;
+  
+background: transparent;
+  
+border: none;
+  
+color: #900c3f;
+  }
+  .btn_edit i{
+  
+  }
+  .user_info{
+  
+  border-bottom: 1px solid #ededed;
+  
+  padding-bottom: 5px;
+  
+  margin-top: 10px;
+  }
+  .user_info h5{
+  
+  font-size: 14px;
+  }
+  .user_info p{
+  
+font-size: 12px;
+  }
+  .address_line{
+  
+border-bottom: 1px solid #ededed;
+  
+padding-bottom: 5px;
+  
+margin-top: 10px;
+  }
+  .address_line h5{
+
+font-size: 14px;
+
+}
+  .address_line p{
+    
+font-size: 14px;
+    
+border-bottom: 1px solid #ededed;
+    
+width: 100%;
+    
+padding-bottom: 10px;
+  }
+  .recent_orders{
+  
+  margin-top: 20px;
+  }
+  .recent_orders h4{
+  
+font-size: 16px;
+  
+border-bottom: 1px solid #ededed;
+  
+padding-bottom: 5px;
+  }
+  .recent_orders table{
+  
+  }
+  .recent_orders thead tr th{
+  
+font-size: 14px;
+}
+.recent_orders thead tr{
+
+}
+.recent_orders thead{
+
+}
+.recent_orders tbody tr td{
+  
+font-size: 12px;
+}
+.recent_orders tbody tr{
+  
+font-size: 12px;
+}
+.recent_orders tbody{
+    
+}
+.add_address{
+  background: transparent;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  transition: .4s all ease-in-out;
+}
+.add_address:hover{
+  background-color: rgb(204, 16, 16);
+  color: #fff;
+}
+  .add_address i{
+    
+margin-right: 5px;
+  }
+  .table{
+    width: 100%;
+  }
+  .order_item{
+    /* display: flex; */
+    justify-content: start;
+    align-items: center;
+  }
+  .order_item img{
+    width: 40px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+  }
+  .order_item p{
+
+  }
+.user_page_list ul li.active,.user_page_list ul li.active a{
+  background-color: #900c3f;
+  color: #fff;
+}
+/* ============== address form modal ===========  */
+.modal_address_here{
+
+position: fixed;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+width: 100%;
+
+height: 100%;
+
+background: #000000d1;
+
+z-index: 5;
+
+height: 100vh;
+
+overflow: auto;
+display: none;
+}
+.address_form_modal{
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+.address_form_modal form{
+
+}
+.address_form_modal form label{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.address_form_modal form input,.address_form_modal form select{
+  border-radius: 0px;
+  outline: 0 !important;
+  box-shadow: 0 0 10px #ededed;
+}
+.address_form_modal form select{
+
+}
+.address_form_modal form input:focus,.address_form_modal form select:focus{
+  box-shadow: none;
+}
+.adds_type_radio{
+  
+display: flex;
+  
+align-items: center;
+  
+margin-top: 20px;
+}
+.adds_box{
+  
+border: 1px solid #ededed;
+  
+border-radius: 3px;
+  
+padding: 5px 20px;
+  
+margin: 0px 5px;
+}
+.adds_box.active{
+  background-color: #C70039;
+}
+.adds_box.active label{
+  color: #fff;
+}
+.adds_box input{
+  display: none;
+}
+@media(max-width: 768px){
+  .address_form_modal{
+    width: 90%;
+  }
+}
+/* ============== address form modal end here ===============  */
