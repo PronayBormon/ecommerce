@@ -724,13 +724,13 @@
                           <li >
                               <a href="user-profile.html">User Account </a>
                           </li>
-                          <li class="active">
+                          <li >
                               <a href="user-orders.html">My Orders </a>
                           </li>
                           <li class="">
                               <a href="user-whichlist.html">Wishlist </a>
                           </li>
-                          <li class="">
+                          <li class="active">
                               <a href="user-review.html">My Reviews </a>
                           </li>
                           <li class="">
@@ -747,17 +747,241 @@
                         <div class="col-12">
                             <div class="to_review">
                                 <div class="review_title">
-                                    <h3>To Revies</h3>
+                                    <h3>To Reviews</h3>
                                 </div>
                                 <div class="revies_list">
                                     <ul>
                                         <li>
-                                            <div>
-                                                <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                            <div class="d-flex align-item-center">
+                                                <div>
+                                                    <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                                </div>
+                                                <div>
+                                                    <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
+                                                    <p>Color: Multiple color </p>
+                                                </div>
                                             </div>
-                                            <div>
-                                                <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
-                                                <p>Color: Multiple color </p>
+                                            <div class="text-center">
+                                                <button class="btn_cart add_review" style="visibility: unset; width: fit-content;" >Add Review </button>
+                                            </div>
+                                            <!-- modal -->
+                                            <div class="add_review_modal add_r">
+                                                <div class="review_box">
+                                                    <div class="d-flex justify-content-between align-item-center">
+                                                        <h6>Add review</h6>
+                                                        <button type="button" class="btn_close_modal"><i class="fa-solid fa-x"></i></button>
+                                                    </div>
+                                                    <div>
+                                                        <form action="">
+                                                            <div class="rate">
+                                                                <input type="radio" id="star5" name="rate" value="5" />
+                                                                <label for="star5" title="text">5 stars</label>
+                                                                <input type="radio" id="star4" name="rate" value="4" />
+                                                                <label for="star4" title="text">4 stars</label>
+                                                                <input type="radio" id="star3" name="rate" value="3" />
+                                                                <label for="star3" title="text">3 stars</label>
+                                                                <input type="radio" id="star2" name="rate" value="2" />
+                                                                <label for="star2" title="text">2 stars</label>
+                                                                <input type="radio" id="star1" name="rate" value="1" />
+                                                                <label for="star1" title="text">1 star</label>
+                                                            </div>
+                                                            <br>
+                                                            <div>
+                                                                
+                                                                <textarea name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn_confirm">Submit</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- modal end  -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="to_review">
+                                <div class="review_title">
+                                    <h3>History</h3>
+                                </div>
+                                <div class="revies_list">
+                                    <ul>
+                                        <li>
+                                            <div class="d-flex align-item-center">
+                                                <div>
+                                                    <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                                </div>
+                                                <div>
+                                                    <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
+                                                    <p>Color: Multiple color </p>
+                                                </div>
+                                            </div>
+                                            <div class="review_text">
+                                                <div>
+                                                    <div class="rating" bis_skin_checked="1">
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star "></i>
+                                                      </div>
+                                                    <p>good quality</p>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="update_review">Update Review</button>
+                                                </div>
+                                                <!-- modal -->
+                                                <div class="add_review_modal up_r">
+                                                    <div class="review_box">
+                                                        <div class="d-flex justify-content-between align-item-center">
+                                                            <h6>Add review</h6>
+                                                            <button type="button" class="btn_close_modal"><i class="fa-solid fa-x"></i></button>
+                                                        </div>
+                                                        <div>
+                                                            <form action="">
+                                                                <div class="rate">
+                                                                    <input type="radio" id="star5" name="rate" value="5" />
+                                                                    <label for="star5" title="text">5 stars</label>
+                                                                    <input type="radio" id="star4" name="rate" value="4" />
+                                                                    <label for="star4" title="text">4 stars</label>
+                                                                    <input type="radio" id="star3" name="rate" value="3" />
+                                                                    <label for="star3" title="text">3 stars</label>
+                                                                    <input type="radio" id="star2" name="rate" value="2" />
+                                                                    <label for="star2" title="text">2 stars</label>
+                                                                    <input type="radio" id="star1" name="rate" value="1" />
+                                                                    <label for="star1" title="text">1 star</label>
+                                                                </div>
+                                                                <br>
+                                                                <div>
+                                                                    
+                                                                    <textarea name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                                                                </div>
+                                                                <button type="button" class="btn_confirm" style="background-color: #C70039; color: #fff;">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- modal end  -->
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex align-item-center">
+                                                <div>
+                                                    <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                                </div>
+                                                <div>
+                                                    <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
+                                                    <p>Color: Multiple color </p>
+                                                </div>
+                                            </div>
+                                            <div class="review_text">
+                                                <div>
+                                                    <div class="rating" bis_skin_checked="1">
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star "></i>
+                                                      </div>
+                                                    <p>good quality</p>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="update_review">Update Review</button>
+                                                </div>
+                                                <!-- modal -->
+                                                <div class="add_review_modal up_r">
+                                                    <div class="review_box">
+                                                        <div class="d-flex justify-content-between align-item-center">
+                                                            <h6>Add review</h6>
+                                                            <button type="button" class="btn_close_modal"><i class="fa-solid fa-x"></i></button>
+                                                        </div>
+                                                        <div>
+                                                            <form action="">
+                                                                <div class="rate">
+                                                                    <input type="radio" id="star5" name="rate" value="5" />
+                                                                    <label for="star5" title="text">5 stars</label>
+                                                                    <input type="radio" id="star4" name="rate" value="4" />
+                                                                    <label for="star4" title="text">4 stars</label>
+                                                                    <input type="radio" id="star3" name="rate" value="3" />
+                                                                    <label for="star3" title="text">3 stars</label>
+                                                                    <input type="radio" id="star2" name="rate" value="2" />
+                                                                    <label for="star2" title="text">2 stars</label>
+                                                                    <input type="radio" id="star1" name="rate" value="1" />
+                                                                    <label for="star1" title="text">1 star</label>
+                                                                </div>
+                                                                <br>
+                                                                <div>
+                                                                    
+                                                                    <textarea name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                                                                </div>
+                                                                <button type="button" class="btn_confirm" style="background-color: #C70039; color: #fff;">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- modal end  -->
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex align-item-center">
+                                                <div>
+                                                    <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                                </div>
+                                                <div>
+                                                    <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
+                                                    <p>Color: Multiple color </p>
+                                                </div>
+                                            </div>
+                                            <div class="review_text">
+                                                <div>
+                                                    <div class="rating" bis_skin_checked="1">
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star "></i>
+                                                      </div>
+                                                    <p>good quality</p>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="update_review">Update Review</button>
+                                                </div>
+                                                <!-- modal -->
+                                                <div class="add_review_modal up_r">
+                                                    <div class="review_box">
+                                                        <div class="d-flex justify-content-between align-item-center">
+                                                            <h6>Update Review </h6>
+                                                            <button type="button" class="btn_close_modal"><i class="fa-solid fa-x"></i></button>
+                                                        </div>
+                                                        <div>
+                                                            <form action="">
+                                                                <div class="rate">
+                                                                    <input type="radio" id="star5" name="rate" value="5" />
+                                                                    <label for="star5" title="text">5 stars</label>
+                                                                    <input type="radio" id="star4" name="rate" value="4" />
+                                                                    <label for="star4" title="text">4 stars</label>
+                                                                    <input type="radio" id="star3" name="rate" value="3" />
+                                                                    <label for="star3" title="text">3 stars</label>
+                                                                    <input type="radio" id="star2" name="rate" value="2" />
+                                                                    <label for="star2" title="text">2 stars</label>
+                                                                    <input type="radio" id="star1" name="rate" value="1" />
+                                                                    <label for="star1" title="text">1 star</label>
+                                                                </div>
+                                                                <br>
+                                                                <div>
+                                                                    
+                                                                    <textarea name="" id="" class="form-control" cols="30" rows="4">good quality</textarea>
+                                                                </div>
+                                                                <button type="button" class="btn_confirm" style="background-color: #C70039; color: #fff;">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- modal end  -->
                                             </div>
                                         </li>
                                     </ul>
@@ -1033,39 +1257,19 @@
 
 
           // modals 
-          $(".add_address").on("click", function(){
-            $(".address_div").fadeIn();
+          $(".add_review").on("click", function(){
+            $(".add_r").fadeIn();
           })
-          $(".btn_address_close").on("click", function(){
-            $(".address_div").fadeOut();
+          $(".btn_close_modal").on("click", function(){
+            $(".add_r").fadeOut();
           })
-
-          // edit profile modal 
-          $(".btn_edit").on("click", function(){
-            $(".edit_div").fadeIn();
+          
+          $(".update_review").on("click", function(){
+            $(".up_r").fadeIn();
           })
-          $(".btn_address_close").on("click", function(){
-            $(".edit_div").fadeOut();
+          $(".btn_close_modal").on("click", function(){
+            $(".up_r").fadeOut();
           })
-          // delete confirmation 
-          $(".cancel").on("click", function(){
-            $(".confirm_modal").fadeIn();
-          })
-          $(".close_modal").on("click", function(){
-            $(".confirm_modal").fadeOut();
-          })
-
-          // click to add active class 
-          $(document).ready(function(){
-            $('.user_page_list ul li').click(function(){
-              $('.user_page_list ul li').removeClass("active");
-              $(this).addClass("active");
-          });
-          });
-
-
-
-
 
 
         })

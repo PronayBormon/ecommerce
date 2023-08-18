@@ -1075,7 +1075,7 @@ text-transform: capitalize;
 
 margin: 0px 3px;
 
-border: 1px solid #000;
+border: 1px solid #dc3545;
 
 width: 20px;
 
@@ -1098,9 +1098,9 @@ justify-content: center;
 padding: 5px 0px;
 }
 .pagination ul li a.active{
-  background-color: #ff9901;
+  background-color: #900c3f;
   color: #fff;
-  border-color: #ff9901;
+  border-color: #900c3f;
 }
 .product_section .col-md-4,.product_section .col-md-8{
   padding: 0px 5px;
@@ -3384,9 +3384,9 @@ font-size: 14px;
 }
 .address_line p{
   
-font-size: 14px;
+font-size: 12px;
   
-border-bottom: 1px solid #ededed;
+/* border-bottom: 1px solid #ededed; */
   
 width: 100%;
   
@@ -3502,6 +3502,11 @@ background: #fff;
 }
 .address_form_modal form{
 
+padding-top: 10px;
+
+border-top: 1px solid #c7003933;
+
+margin-top: 10px;
 }
 .address_form_modal form label{
   font-size: 14px;
@@ -3572,6 +3577,7 @@ transform: translate(-50%, -50%);
 z-index: 5;
 display: none;
 }
+
 .confirm_div{
 background: #fff;
 width: 300px;
@@ -3586,12 +3592,12 @@ padding: 20px;
 font-size: 16px;
 }
 .close_modal{
-background: #F94C10;
-border-radius: 5px;
-margin-right: 10px;
-padding: 3px 10px;
-border: 1px solid #000;
-color: #fff;
+  background: #e94d89;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px 10px;
+  border: 1px solid #000;
+  color: #fff;
 }
 .btn_confirm{  
 background: #900c3f;    
@@ -3610,7 +3616,8 @@ border: none;
 .confirm_div p{
 border: none;
 /* color: #F94C10; */
-padding: 30px 0px;
+/* padding: 30px 0px; */
+color: red;
 }
 @media(max-width: 426px){
 .confirm_div{
@@ -3631,4 +3638,154 @@ outline: 0;
 .img_title h1 a{
 color: #000;
 font-size: 14px;
+}
+
+/* ============ review page start here =========  */
+.to_review{
+
+}
+.to_review{
+
+background: #fff;
+
+border-radius: 10px;
+
+margin-top: 10px;
+
+padding: 20px;
+
+box-shadow: 0 0  20px #ededed;
+}
+.review_title{
+  border-bottom: 1px solid #c2003838;
+  margin-bottom: 20px;
+}
+.review_title h3{
+
+font-size: 16px;
+}
+.revies_list ul li img{
+  width: 50px;
+  margin-right: 10px;
+}
+.revies_list ul li h1{
+  margin: 0;
+  font-size: 14px;
+}
+.revies_list ul li h1 a{  
+  color: #000;
+}
+.revies_list ul li img p{
+
+}
+.revies_list ul li{
+
+border-bottom: 1px solid #c2003838;
+
+padding-bottom: 5px;
+
+margin-top: 20px;
+}
+.revies_list ul li:last-child{
+  border: none;
+}
+.revies_list ul{
+
+}
+.revies_list{
+  
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.review_text{
+  display: flex;
+  justify-content: space-between;
+}
+.review_text p{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.review_text button{
+  background: transparent;
+  border: navajowhite;
+  color: #b70035;
+}
+.add_review_modal{
+  background: #000000e6;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  display: none;
+}
+.review_box{
+  width: 40%;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.review_box h6{
+  font-size: 14px;
+}
+.review_box form label{
+
+}
+.review_box form textarea{
+  margin-bottom: 10px;
+}
+.review_box form{
+
+}
+.review_box form textarea:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.btn_close_modal{
+  border: none;
+  background-color: transparent;
+  transition: .4s all ease-in-out;
+
+}
+.btn_close_modal:hover{
+  color: #C70039;
 }
