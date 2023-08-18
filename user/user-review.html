@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- title  -->
-    <title>Profile || Ecommerce</title>
+    <title>Reviews || Ecommerce</title>
 
     <!-- bootstrap 5.3    -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -38,15 +38,6 @@
 
   </head>
   <body class="bg-light">
-    
-    <!-- top bannar  -->
-    <!-- <div class="top_bannar desktop_view" id="top">
-      <div class="container">
-        <div class="col-12">
-          <img src="images/jumia_top_ads.gif" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div> -->
 
     <!-- logo and payment option -->
     <div class="links desktop_view">
@@ -730,10 +721,10 @@
                     </div>
                     <div class="user_page_list">
                       <ul>
-                          <li class="active">
+                          <li >
                               <a href="user-profile.html">User Account </a>
                           </li>
-                          <li class="">
+                          <li class="active">
                               <a href="user-orders.html">My Orders </a>
                           </li>
                           <li class="">
@@ -751,235 +742,30 @@
                 
             </div>
             <div class="col-md-8">
-              <div class="main_profile">
-                  <div class="user">
-                    <img src="../images/powerUp.jpg" class="img-fluid" alt="">
-                    <h3>Jhone Due</h3>
-                    <p><strong>Registerd at:</strong> 17-08-2023</p>
-                  </div>
-                  <div class="user_details">
-                    <div class="d-flex align-items-center justify-content-between">
-                      <h4>Contact Details </h4>
-                      <button type="button" class="btn_edit"><i class="fa-solid fa-pen"></i></button>
-                      <!-- profile update modal here  -->
-                      <div class="modal_address_here edit_div">
-                        <div class="address_form_modal">
-                          <div class="d-flex justify-content-between">
-                            <p>Update Personal Details </p>
-                            <button type="button" class="btn-close btn_address_close"></button>
-                          </div>
-                          <form action="">
-                            
-                            <!-- <div class="adds_type_radio">
-                              <div class="adds_box">
-                                <label for="adds_type1">Home</label>
-                                <input type="radio" id="adds_type1" name="adds_type" checked class="red"  >
-                              </div>
-                              <div  class="adds_box">
-                                <label for="adds_type">Office </label>
-                                <input type="radio" id="adds_type" name="adds_type" class=""  >
-                              </div>
-                            </div> -->
-                            <div>
-                              <label for="name">Name</label>
-                              <input type="text" name="name" id="name" class="form-control"  >
+                <div class="review_items">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="to_review">
+                                <div class="review_title">
+                                    <h3>To Revies</h3>
+                                </div>
+                                <div class="revies_list">
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <img src="../images/product(1).jpg" class="img-fluid" alt="">
+                                            </div>
+                                            <div>
+                                                <h1><a href="../product-details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eum.</a></h1>
+                                                <p>Color: Multiple color </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div>
-                              <label for="">Email </label>
-                              <input type="email" class="form-control"  >
-                            </div>
-                            <div class="">
-                              <label for="">Phone </label> <br>
-                              <input type="text" id="phone" class="form-control  " required="required" name="phone" >
-                              
-                            </div>
-                            <div>
-                              <label for="">Birth Day</label>
-                              <input type="date" class="form-control" name="" id="">
-                            </div>
-                            <div>
-                              <label for="City">Gender </label>
-                              <select class="form-control" name="" id="city">
-                                <option value="" selected disabled>Select Your Gender</option>
-                                <option value="">Male</option>
-                                <option value="">Female</option>
-                                <option value="">others</option>
-                              </select>
-                            </div>
-                            <div>
-                              <button type="button" class="btn_cart mt-2" style="visibility: unset;">Save</button>
-                            </div>
-
-                          </form>
                         </div>
-                        
-
-                      </div>
-                      <!-- modal end  -->
                     </div>
-                    <div class="user_info">
-                      <h5>Name</h5>
-                      <p>Jhone Due </p>
-                    </div>
-                    <div class="user_info">
-                      <h5>Email</h5>
-                      <p>useremail@mail.com</p>
-                    </div>
-                    <div class="user_info">
-                      <h5>Phone</h5>
-                      <p>+880 19000000</p>
-                      <p>+880 15000000</p>
-                    </div>
-                    <div class="user_info">
-                      <h5>Birth Day</h5>
-                      <p>01-01-2000</p>
-                    </div>
-                    <div class="user_info">
-                      <h5>Gender</h5>
-                      <p>Male</p>
-                    </div>
-
-                    <div class="address_line">
-                      <div class="d-flex justify-content-between align-items-center">
-                        <h5>Address 1</h5>
-                        <button type="button" class="btn_delete"><i class="fa-solid fa-trash-can"></i></button>
-                        <!-- confirm modal  -->
-                        <div class="confirm_modal">
-                          <div class="confirm_div">
-                            <div class="d-flex justify-content-between align-items-center">
-                              <h3>Delete Addess line</h3>
-                              <button class=" close_modal" type="button"><i class="fa-solid fa-x"></i></button>
-                            </div>
-                            <p>Are You Sure?</p>
-                            <div class="d-flex justify-content-end">
-                              <button type="button" class="close_modal">Close</button>
-                              <button type="button" class="btn_confirm">Confirm</button>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- modal end  -->
-                       </div>
-                      <p>Dhaka, Dhaka Bangladesh</p>
-                    </div>
-
-                    <div class="address_line">
-                     <div class="d-flex justify-content-between align-items-center">
-                      <h5>Address 2</h5>
-                      <button type="button" class="btn_delete"><i class="fa-solid fa-trash-can"></i></button>
-                      <!-- confirm modal  -->
-                      <div class="confirm_modal">
-                        <div class="confirm_div">
-                          <div class="d-flex justify-content-between align-items-center">
-                            <h3>Delete Addess line</h3>
-                            <button class=" close_modal" type="button"><i class="fa-solid fa-x"></i></button>
-                          </div>
-                          <p>Are You Sure?</p>
-                          <div class="d-flex justify-content-end">
-                            <button type="button" class="close_modal">Close</button>
-                            <button type="button" class="btn_confirm">Confirm</button>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- confirm modal  -->
-                     </div>
-
-                      <p>Dhaka, Dhaka Bangladesh</p>
-
-                      <button type="button" class="add_address"> <i class="fa-solid fa-plus"></i>Add New address</button>
-                      <!-- address modal here  -->
-                      <div class="modal_address_here address_div">
-                        <div class="address_form_modal">
-                          <div class="d-flex justify-content-between">
-                            <p>Add New address</p>
-                            <button type="button" class="btn-close btn_address_close"></button>
-                          </div>
-                          <form action="">
-                            
-                            <div class="adds_type_radio">
-                              <div class="adds_box">
-                                <label for="adds_type1">Home</label>
-                                <input type="radio" id="adds_type1" name="adds_type" checked class="red"  >
-                              </div>
-                              <div  class="adds_box">
-                                <label for="adds_type">Office </label>
-                                <input type="radio" id="adds_type" name="adds_type" class=""  >
-                              </div>
-                            </div>
-                            <div>
-                              <label for="City">City </label>
-                              <select class="form-control" name="" id="city">
-                                <option value="" selected disabled>Select Your City</option>
-                                <option value="">Dhaka</option>
-                                <option value="">Tangail</option>
-                                <option value="">Gazipur</option>
-                                <option value="">Manikganj</option>
-                              </select>
-                            </div>
-                            <div>
-                              <label for="area">Area</label>
-                              <input type="text" name="area" id="area" class="form-control"  >
-                            </div>
-                            <div>
-                              <label for="">Address </label>
-                              <input type="text" class="form-control"  >
-                            </div>
-                            <div>
-                              <label for="">Land Mark </label>
-                              <input type="text" class="form-control"  >
-                            </div>
-                            <div>
-                              <button type="button" class="btn_cart mt-2" style="visibility: unset;">Save</button>
-                            </div>
-
-                          </form>
-                        </div>
-                        
-
-                      </div>
-                    </div>
-                  </div>
-                  <div class="recent_orders">
-                    <h4>Recent Orders </h4>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>Order id</th>
-                          <th>Place On </th>
-                          <th>Address </th>
-                          <th>Item</th>
-                          <th>Total</th>
-                          <th></th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>74476095</td>
-                          <td>15 Aug 2023 </td>
-                          <td>School raod, wirless Mohakhali Dhaka</td>
-                          <td class="order_item">
-                            <a href="../product-details.html"><img src="../images/product(1).jpg" class="img-fluid" alt=""> </a>
-                            <a href="../product-details.html"><img src="../images/product(2).jpg" class="img-fluid" alt=""> </a>
-                            <a href="../product-details.html"><img src="../images/product(3).jpg" class="img-fluid" alt=""> </a>
-                          </td>
-                          <td>6,000 TK</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>74476095</td>
-                          <td>15 Aug 2023 </td>
-                          <td>School raod, wirless Mohakhali Dhaka</td>
-                          <td class="order_item">
-                            <a href="../product-details.html"><img src="../images/product(1).jpg" class="img-fluid" alt=""> </a>
-                            <a href="../product-details.html"><img src="../images/product(2).jpg" class="img-fluid" alt=""> </a>
-                            <a href="../product-details.html"><img src="../images/product(3).jpg" class="img-fluid" alt=""> </a>
-                          </td>
-                          <td>6,000 TK</td>
-                          <td></td>
-                        </tr>
-                      </tbody>
-                    </table>
                 </div>
-              </div>
             </div>
         </div>
       </div>
@@ -1236,7 +1022,7 @@
     <script src="../js/mobileInput.js"></script>
 
     <script>
-       
+        
 
         $(document).ready(function(){
           $('input:radio:checked').parent().addClass("active");
@@ -1262,7 +1048,7 @@
             $(".edit_div").fadeOut();
           })
           // delete confirmation 
-          $(".btn_delete").on("click", function(){
+          $(".cancel").on("click", function(){
             $(".confirm_modal").fadeIn();
           })
           $(".close_modal").on("click", function(){
