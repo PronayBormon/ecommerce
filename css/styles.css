@@ -3217,7 +3217,7 @@ background: #fff;
 
 margin-top: 10px;
 
-border-radius: 10px;
+border-radius: 5px;
 
 padding: 20px;
 
@@ -3282,11 +3282,11 @@ border-bottom: 1px solid #ededed;
 }
 .main_profile{
 
-margin-top: 10px;
+margin-top: 0px;
 
 background: #fff;
 
-border-radius: 10px;
+border-radius: 5px;
 
 padding: 20px;
 
@@ -3395,6 +3395,8 @@ padding-bottom: 10px;
 .recent_orders{
 
 margin-top: 20px;
+
+overflow: auto;
 }
 .recent_orders h4{
 
@@ -3406,10 +3408,13 @@ padding-bottom: 5px;
 }
 .recent_orders table{
 
+overflow: auto;
 }
 .recent_orders thead tr th{
 
-font-size: 14px;
+font-size: 12px;
+
+width: fit-content;
 }
 .recent_orders thead tr{
 
@@ -3487,19 +3492,12 @@ z-index: 5;
 height: 100vh;
 
 overflow: auto;
+
 display: none;
+
+overflow: auto;
 }
-.address_form_modal{
-border: 1px solid #ededed;
-border-radius: 5px;
-padding: 20px;
-width: 50%;
-top: 50%;
-position: absolute;
-left: 50%;
-transform: translate(-50%, -50%);
-background: #fff;
-}
+.address_form_modal{border: 1px solid #ededed;border-radius: 5px;padding: 20px;width: 50%;top: 50%;position: absolute;left: 50%;transform: translate(-50%, -50%);background: #fff;height: 90vh;overflow: auto;}
 .address_form_modal form{
 
 padding-top: 10px;
@@ -3507,6 +3505,7 @@ padding-top: 10px;
 border-top: 1px solid #c7003933;
 
 margin-top: 10px;
+scrollbar-width: 0;
 }
 .address_form_modal form label{
   font-size: 14px;
@@ -3788,4 +3787,53 @@ margin-top: 20px;
 }
 .btn_close_modal:hover{
   color: #C70039;
+}
+.tab_btns{
+
+display: flex;
+
+width: 100%;
+
+background: #fff;
+
+padding: 10px 5px;
+
+box-shadow: 0 0 20px #ededed;
+}
+.tab_btns .nav-link{
+
+border-radius: 0px;
+
+padding: 3px 5px;
+}
+.nav-pills .nav-link.active{
+  background-color: transparent !important;
+  color: #900C3F;
+}
+.nav-item{
+  border-right: 1px solid #900c3f;
+}
+.nav-item:last-child{
+  border: none;
+}
+
+.thumb-image {
+  float:left;
+  width:100px;
+  position:relative;
+  padding:5px;
+}
+#imagePreview {
+  width: 180px;
+  height: 180px;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+  display: inline-block;
+}
+input:focus,input:active{
+  box-shadow: none;
+}
+.address_form_modal::-webkit-scrollbar{
+  display: none;
 }
