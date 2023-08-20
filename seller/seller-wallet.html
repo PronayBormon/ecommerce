@@ -715,7 +715,7 @@
             <div class="col-md-4">
                 <div class="user_sidebar">
                     <div class="user_page_title">
-                        <h3><a href="seller-account-setting.html"><i class="fa-regular fa-star"></i>Account Settings</a></h3>
+                        <h3><a href="seller-wallet.html"><i class="fa-regular fa-star"></i>Wallet</a></h3>
                     </div>
                     <div class="user_page_list">
                       <ul>
@@ -728,13 +728,13 @@
                           <li class="">
                               <a href="seller-customer-returns.html">Customer Returns</a>
                           </li>
-                          <li class="" >
+                          <li class="active" >
                               <a href="seller-wallet.html">Wallet  </a>
                           </li>
                           <li >
                               <a href="seller-profile.html"> Profile information  </a>
                           </li>
-                          <li class="active">
+                          <li class="">
                               <a href="seller-account-setting.html">Account Settings </a>
                           </li>
                           <li class="">
@@ -749,112 +749,226 @@
                 
             </div>
             <div class="col-md-8">
-                <ul class="tab_btns nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="pills-here-tab" data-bs-toggle="pill" data-bs-target="#seller_account" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Change Photos</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Login Information</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="seller_account" role="tabpanel" aria-labelledby="pills-here-tab">
-                        <div class="main_profile">
-                            <div class="user_details">
-                              <div class="d-flex align-items-center justify-content-between mb-3">
-                                <h4>Profile image and Logo  </h4>
-                                
-                              </div>
-                              
-                              <form action="" method="" enctype="multipart/form-data">
-                                <div>
-                                  <h6>Profile Image</h6>
-                                  <div class="imagePreview" id="imagePreview"></div>
-                                  <div>
-                                    <label for="">Upload Profile Image</label>
-                                    <input id="uploadFile" type="file" name="image" class="img form-control uploadFile " accept="image/gif, image/jpeg, image/png" />
-                                  </div>
-                                </div>
-                                <button type="button" class="btn_cart" style="visibility: unset; width: fit-content; margin-top: 10px;">Upload</button>
-                              </form>
-                              <div class="mt-4">
-                                <h6>Business Logo</h6>
-                                <div class="imagePreview1" id="imagePreview"></div>
-                                <form action="" enctype="multipart/form-data">
-                                  <div>
-                                    <label for="">Upload Profile Image</label>
-                                    <input id="uploadFile1" type="file" name="image" class="img form-control uploadFile1" accept="image/gif, image/jpeg, image/png" />
-                                  </div>
-                                  <button type="button" class="btn_cart" style="visibility: unset; width: fit-content; margin-top: 10px;">Upload</button>
-                                </form>
-                              </div>
-
-          
-                              
+                <div class="key_summary mt-3">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="count_box">
+                                <h5>Withdrawal Ammount <i class="fa-solid fa-circle-exclamation"></i></h5>
+                                <h4>0 <span style="font-size: 12px;">TK</span></h4>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-business" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="main_profile">
-                            <div class="user_details">
-                              <div class="d-flex align-items-center justify-content-between">
-                                <h4>Login Information </h4>
-                                <button type="button" class="btn_edit"><i class="fa-solid fa-pen"></i></button>
-                                <!-- profile update modal here  -->
-                                <div class="modal_address_here edit_div">
-                                  <div class="address_form_modal">
-                                    <div class="d-flex justify-content-between">
-                                      <p>Login Information </p>
-                                      <button type="button" class="btn-close btn_address_close"></button>
-                                    </div>
-                                    <form action="">
-                                      
-                                      <div>
-                                        <label for="name" class="d-flex">Email <p class="text-danger d-block">*</p></label>
-                                        <input type="text" name="name" value="" id="name" class="form-control"  >
-                                      </div>
-                                      <!-- <div class="group">
-                                        <input   required="" type="password" class="input">
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Password</label>
-                                        <i class="fa-regular fa-eye toggle-password" ></i>
-                                      </div> -->
-                                      <div class="">
-                                        <label for="">Phone </label> <br>
-                                        <input type="text" id="" class="form-control mobile_code" placeholder=" " name="name">
-                                      </div>
-                                      <div class="mt-3">
-                                        <button type="button" class="btn_cart mt-2" style="visibility: unset;">Save</button>
-                                      </div>
-          
-                                    </form>
-                                  </div>
-                                  
-          
-                                </div>
-                                <!-- modal end  -->
-                              </div>
-                              <div class="user_info">
-                                <h5>Email</h5>
-                                <p>user@mail.com </p>
-                              </div>
-                              
-                              <div class="user_info">
-                                <h5>Phone number </h5>
-                                <p>+880172222222</p>
-                              </div>
-                              <div class="user_info">
-                                <h5>Password <a href="../changepassword.html" class="btn_edit"><i class="fa-solid fa-pen"></i></a></h5>
-                                <p>***********</p>
-                              </div>
-                              
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="count_box">
+                                <h5>Ammount Under Review <i class="fa-solid fa-circle-exclamation"></i></h5>
+                                <h4>0 <span style="font-size: 12px;">TK</span></h4>
                             </div>
                         </div>
                     </div>
                 </div>
-              
-            </div>
+                
+              <div class="top_search_box">
+                <form action="">
+                  <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                      <input type="text" placeholder="Search date" onfocus="(this.type='date')">
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                      <input type="text" placeholder="Transsection Number">
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                      <input type="text" placeholder="Order Number">
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                      <button type="submit" class="btn_cart" style="visibility: unset; color: #fff; width: fit-content;">Search </button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+                <div class="main_profile">
+                    <div class="user_details">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h4>Transection History</h4>
+                            <!-- <button type="button" class="btn_edit"><i class="fa-solid fa-pen"></i></button> -->
+                        </div>
+                      <table class="table" id="MyTableID">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Transection type</th>
+                                <th>Transection Number</th>
+                                <th>Order Number</th>
+                                <th>Details comment</th>
+                                <th>Ammount</th>
+                                <th>VAT</th>
+                                <th>WHT</th>
+                                <th>Statement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                            <tr>
+                                <td>19-08-2023</td>
+                                <td>Online</td>
+                                <td> 343489343</td>
+                                <td> #87483743</td>
+                                <td>Comment </td>
+                                <td> 100.00 TK </td>
+                                <td> 00.00 </td>
+                                <td> None</td>
+                                <td>None </td>
+                            </tr>
+                        </tbody>
+                      </table>
+                      <!-- pagination  -->
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="pagination">
+                                <ul>
+                                    <li>
+                                        <a href="#"> prv </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="active"> 1 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> 2 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> 3 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> next </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+
+  
+                      
+                    </div>
+                </div>
         </div>
       </div>
     </section>
@@ -1097,6 +1211,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script> <!--Table 2 xml file download-->
 
     <script src="js/countdowntimer.js"></script> <!--Counter-->
     <script src="../js/addActiveClass.js"></script> <!-- click to add active class  -->
@@ -1197,6 +1312,16 @@
 		      });
     </script>
 
+    <!--Table 2 xml file download-->
+    <script type="text/javascript">
+        $(function () {
+            $(".tb2xl_btn").click(function () {
+                $(".table").table2excel({
+                    filename: "customer_return_list"
+                });
+            })
+        });
+    </script>
 
   </body>
 </html>
