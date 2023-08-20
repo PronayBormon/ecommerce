@@ -954,6 +954,7 @@ display: flex;
   border: none;
   outline: none;
   box-shadow: none;
+  background: transparent;
 }
 .title_product option{
 
@@ -4535,38 +4536,27 @@ font-weight: 400;
   border: none;
 }
 .mobile_chat_list{
-
-border-top: 1px solid #ededed;
-
-border-bottom: 1px solid #ededed;
-
-margin-bottom: 10px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 10px;
 }
 .mobile_chat_list ul {
-
-display: flex;
-
-width: 100%;
-
-overflow: auto;
-scrollbar-width: none;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
 }
 .mobile_chat_list ul::-webkit-scrollbar{
   display: none;
 }
 .mobile_chat_list ul li{
-
-padding: 5px;
+  padding: 5px;
 }
 .mobile_chat_list ul li button{
-
-background: #eee;
-
-padding: 3px;
-
-border-radius: 5px;
-
-min-width: 50px;
+  background: #eee;
+  padding: 3px;
+  border-radius: 5px;
+  min-width: 50px;
 }
 .mobile_chat_list ul li button p{
   font-size: 8px;
@@ -4575,3 +4565,28 @@ min-width: 50px;
   width: 30px !important;
   height: 30px;
 } 
+.product_grid{
+
+}
+.left_item{
+  font-size: 10px !important;
+  margin-top: 5px;
+}
+.progress{
+  height: 8px;
+  margin-bottom: 10px;
+}
+.progress .progress-bar{
+  background: #900c3f;
+}
+.top_title_here{
+  
+padding: 10px 20px;
+  
+border-top-left-radius: 10px;
+  
+border-top-right-radius: 10px;
+}
+.top_title_here option{
+  color: #000 !important;
+}
