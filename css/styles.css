@@ -5070,7 +5070,7 @@ position: absolute;
 }
 @media(max-width: 576px){
   .swiper-horizontal {
-    width: 200px;
+    /* width: 200px; */
   }
   .form_box{
     width: 90%;
