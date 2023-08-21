@@ -721,13 +721,65 @@
                     ga-129, Hajari bari road, Mohakhali, Dhaka, Mohakhali TB Gate Jame Mosjid, Dhaka - North, Dhaka, Oposite side of titumir college
                   </p>
                 </div>
-                <div><a href="#">Change</a></div>
+                <div><a href="#" class="chage_Daddress">Change</a></div>
+                <!-- modal start  -->
+                <div class="modal_checkoutpage billing">
+                  <div class="modal_box">
+                    <div class="row">
+                      <div class="col-6 ms-auto text-end"><button class="btn_edit modal_close"><i class="fa-solid fa-x"></i></button></div>
+                    </div>
+                    <form action="">
+                      <select name="" id="" class="form-control">
+                        <option value="" disabled selected> Select One </option>
+                        <option value="">Address 1</option>
+                        <option value="">Address 2</option>
+                      </select>
+                      <button class="btn_confirm mt-2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+                <!-- modal end  -->
               </div>
               <div class="pickUp_address">
                 <h6>Collect your parcel from the nearest Ecommerce Pick-up Point with a reduced shipping fee</h6>
-                <p>20 suggested collection point(s) nearbyCheck <a href="#">Pick-up Points</a></p>
+                <p>20 suggested collection point(s) nearbyCheck <a href="#"  class="btn_picup">Pick-up Points</a></p>
+                
+                <!-- modal start  -->
+                <div class="modal_checkoutpage pickup_point">
+                  <div class="modal_box">
+                    <div class="row">
+                      <div class="col-6 ms-auto text-end"><button class="btn_edit modal_close"><i class="fa-solid fa-x"></i></button></div>
+                    </div>
+                    <form action="">
+                      <select name="" id="" class="form-control">
+                        <option value="" disabled selected> Select One </option>
+                        <option value="">Address 1</option>
+                        <option value="">Address 2</option>
+                      </select>
+                      <button class="btn_confirm mt-2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+                <!-- modal end  -->
               </div>
-              <p>Bill to same address <a href="#">Edit</a></p>
+              <p>Bill to same address <a href="#" class="billing_address">Edit</a></p>              
+                <!-- modal start  -->
+                <div class="modal_checkoutpage bill_address">
+                  <div class="modal_box">
+                    <div class="row">
+                      <div class="col-6 ms-auto text-end"><button class="btn_edit modal_close"><i class="fa-solid fa-x"></i></button></div>
+                    </div>
+                    <form action="">
+                      <select name="" id="" class="form-control">
+                        <option value="" disabled selected> Select One </option>
+                        <option value="">Address 1</option>
+                        <option value="">Address 2</option>
+                      </select>
+                      <button class="btn_confirm mt-2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+                <!-- modal end  -->
               <p>Email to useremail@mail.com <a href="user-profile.html">Edit</a></p>
             </div>
             <div class="items_details">
@@ -784,7 +836,20 @@
               </div>
               <div class="d-flex align-items-center justify-content-between">
                 <p>Promo Code</p>
-                <Button type="button">Enter Promo code <i class="fa-solid fa-chevron-right"></i></Button>
+                <Button type="button" class="btn_promo">Enter Promo code <i class="fa-solid fa-chevron-right"></i></Button>
+                <!-- modal start  -->
+                <div class="modal_checkoutpage promo">
+                  <div class="modal_box">
+                    <div class="row">
+                      <div class="col-6 ms-auto text-end"><button class="btn_edit modal_close"><i class="fa-solid fa-x"></i></button></div>
+                    </div>
+                    <form action="">
+                      <input type="text" class="form-control" placeholder="Enter Your Promo Code ">
+                      <button class="btn_confirm mt-2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+                <!-- modal end  -->
               </div>
               <div class="pirce_summary">
                 <table class="table">
@@ -812,7 +877,7 @@
                   </tbody>
                 </table>
                 <div class="text-end"><p>VAT included, Where applicable </p></div>
-                <button type="button" class="btn_cart" style="visibility: unset; background-color: #ff9901; color: #fff; margin-top: 10px;"> Place Order </button>
+                <a href="payment.html" type="button" class="btn_cart text-center" style="visibility: unset; background-color: #900C3F; color: #fff; margin-top: 10px;"> Place Order </a>
               </div>
             </div>
           </div>
@@ -1075,6 +1140,36 @@
             $(".filter_close").on('click', function(){
                 $(".filter_modal").hide();
             });
+
+            // address
+            $(".chage_Daddress").on("click", function(){
+              $(".billing").fadeIn();
+            })
+            $(".modal_close").on("click", function(){
+              $(".billing").fadeOut();
+            })
+
+            // address
+            $(".billing_address").on("click", function(){
+              $(".bill_address").fadeIn();
+            })
+            $(".modal_close").on("click", function(){
+              $(".bill_address").fadeOut();
+            })
+            // enter promo
+            $(".btn_promo").on("click", function(){
+              $(".promo").fadeIn();
+            })
+            $(".modal_close").on("click", function(){
+              $(".promo").fadeOut();
+            })
+            // address
+            $(".btn_picup").on("click", function(){
+              $(".pickup_point").fadeIn();
+            })
+            $(".modal_close").on("click", function(){
+              $(".pickup_point").fadeOut();
+            })
         })
     </script>
   </body>

@@ -800,6 +800,7 @@
                                     <div>
                                         <span>Official store</span>
                                         <strong>free delivery</strong>
+                                        <span style="background-color: red;"><a href="#" style="color: #fff;">Click to Get Your affiliate link</a></span>
                                     </div>
                                     <button> <i class="fa-regular fa-heart"></i></button>
                                 </div>
@@ -822,6 +823,35 @@
                                             <li><a href="javascript:void(0);"><div class="star"></div></a></li>
                                         </ul>
                                         <h6>( <a href="#feedback">188 verified ratings</a>)</h6>
+                                    </div>
+                                    <div class="d-flex align-items-end">
+                                      <div class="size_attr">
+                                        <label for="">Color:</label>
+                                        <select name="" id="" required class="form-control">
+                                          <option value="" >Black</option>
+                                          <option value="" >White</option>
+                                          <option value="" > Red</option>
+                                          <option value="" > Blue</option>
+                                          <option value="" > Yellow</option>
+                                          <option value="" > navy Blue</option>
+                                        </select>
+                                      </div>
+                                      <div class="size_attr">
+                                        <label for="">Size:</label>
+                                        <select name="" id="" required  class="form-control">
+                                          <option value="" > XS</option>
+                                          <option value="" > S</option>
+                                          <option value="" > M</option>
+                                          <option value="" > L</option>
+                                          <option value="" > XL</option>
+                                          <option value="" > XXL</option>
+                                        </select>
+                                      </div>                                      
+                                      <div class="number">
+                                        <span class="minus">-</span>
+                                        <input type="text" value="1"/>
+                                        <span class="plus">+</span>
+                                      </div>
                                     </div>
                                     <button type="button" class="btn_cart"  style="visibility: unset;"><i class="fa-solid fa-cart-shopping"></i>Add to Cart </button>                                    
                                 </div>
@@ -2151,6 +2181,26 @@
 
         
     </script>
+        <script>
+
+          // value changer         
+          $(document).ready(function() {
+        $('.minus').click(function () {
+          var $input = $(this).parent().find('input');
+          var count = parseInt($input.val()) - 1;
+          count = count < 1 ? 1 : count;
+          $input.val(count);
+          $input.change();
+          return false;
+        });
+        $('.plus').click(function () {
+          var $input = $(this).parent().find('input');
+          $input.val(parseInt($input.val()) + 1);
+          $input.change();
+          return false;
+        });
+      });
+      </script>
 
   </body>
 </html>
