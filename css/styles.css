@@ -241,6 +241,7 @@ color: #900C3F;
   animation: slideright .4s linear;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  box-shadow: 2px 2px 3px #dadada;
 }
 @keyframes slideright{
   0%{
@@ -603,7 +604,7 @@ height: 30px;
 
 width: 30px;
 
-background: #ff9901;
+background: #c22964;
 
 display: flex;
 
@@ -744,6 +745,7 @@ padding-top: 10px;
   z-index: 9;
   left: 8%;
   top: 70%;
+  box-shadow: 0 0 20px #dadada;
 }
 .nav_bar:hover .nav_op{
   display: block !important;
@@ -5862,4 +5864,561 @@ margin-bottom: 10px;
 .btn_gray{
   background-color: #ededed !important;
   color: #000;
+}
+.sellon{
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #e0e0e0ab;
+  min-height: 100px;
+}
+.sellon img{
+  border-radius: 5px;
+  min-height: 100px;
+}
+.why_sell{
+
+background: #fff;
+
+box-shadow: 0px 0px 20px #e0e0e0ab;
+
+margin-top: 10px;
+
+padding: 20px;
+
+text-align: center;
+
+border-radius: 10px;
+}
+.sell_title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.sell_title h5{
+  
+text-align: center;
+}
+.info_box{
+
+background: #c63232;
+
+border-radius: 5px;
+
+margin: 3px 0px;
+
+text-align: center;
+
+padding: 16px 8px;
+}
+.info_box p{    
+  font-size: 14px;    
+  color: #fff;
+}
+.why_sell .col-md-2 ,.why_sell .col-sm-6 ,.why_sell .col-6{
+  padding: 0px 5px;
+}
+
+@media(max-width: 425px){
+  .info_box p{
+    font-size: 12px;
+  }
+}
+@media(max-width: 375px){
+  .info_box p{
+    font-size: 9px;
+  }
+}
+.testimonial{
+
+background: #fff;
+
+margin-top: 15px;
+
+padding: 0px;
+
+border-radius: 10px;
+}
+.video_story{
+  width: 100%;
+  height: 315px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.video_story iframe{
+  height: 100%;
+  width: 100%;
+}
+.story_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 14px;
+}
+.story_text P{
+  
+}
+@media(max-width: 576px){
+  .video_story{    
+    height: 180px;
+  }
+}
+
+.how_it_works_item{
+
+text-align: center;
+}
+.how_it_works_item img{
+
+max-width: 100px;
+}
+.details{
+
+text-align: start;
+
+margin-top: 15px;
+}
+.details h5{
+  
+font-size: 14px;
+}
+.details p{
+  font-size: 14px;
+}
+.how_work{
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+/* affiliate programme page start here  */
+.aff_programe{
+
+padding: 20px 0px;
+}
+.affi_login{
+
+color: #403d3d;
+
+padding: 10px 20px;
+
+background: #ededed61;
+
+border-radius: 5px;
+
+margin-right: 10px;
+
+box-shadow: 0 0 20px #ededed;
+
+text-transform: uppercase;
+}
+.btn_register{
+
+padding: 10px 20px;
+
+border: 1px solid #900c3f;
+
+border-top-right-radius: 25px;
+
+border-bottom-left-radius: 25px;
+
+color: #900c3f;
+
+box-shadow: 0 0 20px #e43c3c40;
+
+transition: .4s all ease-in-out;
+}
+.btn_register:hover{
+  background-color: #900c3f29;
+}
+.aff_bannar{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+min-height: 80vh;
+}
+.aff_bannar h1{
+
+margin: 0;
+
+font-size: 60px;
+
+color: #900c3f;
+
+font-weight: 600;
+}
+.aff_bannar h2{
+
+font-size: 60px;
+
+font-weight: 400;
+}
+.aff_bannar p{
+
+font-size: 20px;
+
+margin-bottom: 30px;
+}
+.aff_bannar .btn_login,.what_r_waiting .btn_login{
+
+font-size: 20px;
+
+padding: 15px 30px;
+
+background: #c22964;
+}
+.aff_bannar img{
+  
+border-top-right-radius: 50px;
+  
+max-height: 350px;
+  
+margin: auto;
+  
+text-align: center;
+  
+border-bottom-left-radius: 50px;
+  
+box-shadow: 0 0 20px #888686ab;
+  
+margin-top: 30px;
+}
+.who_can_register{
+
+background: #fff;
+
+padding: 30px 0px;
+}
+.programme_title{
+  text-align: center;
+  margin: 30px 0px;
+}
+.programme_title span{
+  display: block;
+  position: relative;
+  height: 4px;
+  width: 100px;
+  margin:   auto;
+  transition: .4s all ease-in-out;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.programme_title span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0px;
+  background-color: #900c3f;
+  transition: .4s all ease-in-out;
+  border-radius: 10px;
+}
+.who_can_register:hover span::after{
+  width: 100%;
+}
+.programme_title h5{
+
+}
+.who_can{
+
+text-align: center;
+
+margin-bottom: 10px;
+}
+.who_can img{
+
+height: 120px;
+
+width: 120px;
+
+object-fit: cover;
+
+border-radius: 50%;
+}
+.who_can h2{
+
+font-size: 22px;
+
+margin-top: 10px;
+}
+.who_can p{
+
+font-size: 14px;
+
+margin-top: 20px;
+}
+.who_can_register.bg-light img{
+  border-radius: 0;
+}
+.partner_says{
+
+margin: 9px;
+
+box-shadow: 0 0 20px #ededed;
+
+border-radius: 5px;
+
+padding: 20px;
+
+margin: 0px;
+
+margin: 10px;
+
+height: 95%;
+
+text-align: center;
+}
+.partner_says i{
+
+font-size: 30px;
+
+color: #900c3f;
+}
+.partner_says p{
+
+font-size: 16px;
+
+margin: 20px 0px;
+
+min-height: max-content;
+
+min-height: 72%;
+}
+.partner_says h6{
+  
+color: #4b4949;
+}
+.testimonial.owl-carousel .owl-stage{
+  display: flex;
+}
+.what_r_waiting{
+
+background: #f55203;
+
+padding: 40px 0px;
+
+text-align: center;
+}
+.what_r_waiting h1{
+
+margin: 0;
+
+margin-bottom: 40px;
+
+color: #fff;
+}
+.what_r_waiting a{
+  
+}
+
+
+/* form css  */
+.programme_form .group {
+  position: relative;
+  margin-bottom: 10px;
+ }
+ 
+ .programme_form .input, .programme_form select {
+  font-size: 14px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+  font-size: 14px;
+  background: #e8f0fe;
+ }
+ 
+ .programme_form .input:focus {
+  outline: none;
+  background: transparent;
+ }
+ 
+ .programme_form label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+ }
+ 
+ .programme_form .input:focus ~ label, .input:valid ~ label {
+  top: -10px;
+  font-size: 12px;
+  color: #c70039;
+ }
+ 
+ .programme_form .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+ }
+ 
+ .programme_form .bar:before, .bar:after {
+  content: '';
+  height: 1px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #c70039;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+ }
+ 
+ .programme_form .bar:before {
+  left: 50%;
+ }
+ 
+ .programme_form .bar:after {
+  right: 50%;
+ }
+ 
+ .programme_form .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+  width: 50%;
+ }
+ 
+ .programme_form .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+ }
+ 
+ .programme_form .input:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+ }
+ 
+ @keyframes inputHighlighter {
+  from {
+   background: #5264AE;
+  }
+ 
+  to {
+   width: 0;
+   background: transparent;
+  }
+ }
+
+ .programme_form{
+
+background: #fff;
+
+padding: 20px;
+
+border-radius: 10px;
+
+box-shadow: 0 0 20px #ededed;
+}
+ .programme_form form{
+
+ }
+ .group i{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+ }
+ .ac_type{
+
+ }
+ .ac_type input{
+
+ }
+ .ac_type label{
+  pointer-events: all;
+  position: unset;
+  background-color: #fff;
+  box-shadow: 0 0 20px #ededed;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ededed;
+  width: 100%;
+  margin: 5px 0px;
+ }
+ .ac_type input:checked + label{
+  border: 1px solid #9f0d372b;
+  color: #000;
+  background-color: #9f0d372b;
+ }
+ .programme_form h5{
+
+font-size: 14px;
+
+margin-top: 10px;
+
+}
+ .ac_type input[type="radio"]{
+
+ }
+ .c_label  a{
+
+text-transform: capitalize;
+
+color: #8f042c;
+
+}
+ .programme_form .btn_cart{
+
+padding: 10px 20px;
+
+font-size: 16px;
+
+}
+ .programme_form h3{
+  
+font-size: 20px;
+ }
+ .ac_type  p{
+  font-size: 14px;
+ }
+ .c_label label{
+
+font-size: 14px;
+
+margin: 10px 0px;
+
+margin-left: 5px;
+
+}
+.programme_form p{
+  margin-bottom: 10px;
+}
+.ac_type p{
+
+margin: 0;
+}
+.ac_type h6{
+  
+}
+.sign_link{
+
+margin: 20px 0px;
+}
+.sign_link a {
+
+color: #900c3f;
+
+text-decoration: underline;
 }
