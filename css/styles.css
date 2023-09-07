@@ -6717,6 +6717,8 @@ font-size: 14px;
 
 }
 
-.nav_menu ul li a i,.nav_menu ul li a img{
-  display: none;
+.nav_menu ul li a img{
+  width: 18px;
+  margin-right: 5px !important;
+  max-height: 18px;
 }
