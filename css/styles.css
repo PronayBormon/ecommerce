@@ -6359,6 +6359,7 @@ box-shadow: 0 0 20px #ededed;
   border: 1px solid #ededed;
   width: 100%;
   margin: 5px 0px;
+  text-align: center;
  }
  .ac_type input:checked + label{
   border: 1px solid #9f0d372b;
@@ -6714,4 +6715,8 @@ font-size: 14px;
   }
 
 
+}
+
+.nav_menu ul li a i,.nav_menu ul li a img{
+  display: none;
 }
