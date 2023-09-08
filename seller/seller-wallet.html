@@ -1220,6 +1220,55 @@
 
     <!-- footer part start here  -->
     <footer>
+      <!-- mobile footer  -->
+      <div class="mobile_view">
+        <div class="f_posi">
+          <div class="" style="height: 20px;"></div>
+          <div class="m_footer ">
+            <div class="f_option ">
+              <ul>
+                <li>
+                  <a href="all-categories.html">
+                    <div class="circle"></div>
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <p>Category</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="user/user-whichlist.html" class="login_popup_show">
+                    <div class="circle"></div>
+                    <i class="fa-solid fa-heart"></i>
+                    <p>Wishlist</p>
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="index.html">
+                    <div class="circle"></div>
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="cart.html">
+                    <div class="circle"></div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="user/user-profile.html" class="login_popup_show">
+                    <div class="circle"></div>
+                    <i class="fa-solid fa-user"></i>
+                    <p>User</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- mobile footer end  -->
+
       <!-- footer top  -->
       <div class="footer_top">
         <div class="container">
@@ -1422,6 +1471,62 @@
       
     </footer>
 
+            <!-- login popup  -->
+            <div class="login_popup">
+              <div class="popup_box_modal">
+                <div>
+                  <div class="row">
+                    <div class="col-6 ms-auto text-end"> <button class="btn_edit close_login"><i class="fa-solid fa-x"></i></button></div>
+                  </div>
+                </div>
+                <div class="popup_title">
+                  <h1>Login</h1>
+                  <p>Login and get access to all the features</p>
+                </div>
+                <div>
+                  <form action="user/user-profile.html">
+                    <div class="input_group">
+                      <!-- <label for="">User Name </label> -->
+                      <input type="text" placeholder="User Name ">
+                      <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input_group">
+                      <input type="password" placeholder="Password">
+                      <i  class="toggle-password fa-solid fa-eye"></i>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <input type="checkbox" id="remeber"><label for="remeber">Remember me</label>
+                      </div>
+                      <a href="forget-password.html">Forget Password</a>
+                    </div>
+                    <div>
+                      <button class="btn_logins" type="submit">Login</button>
+                    </div>
+                    <div class="d-flex">
+                      <p style="font-size: 12px !important;">Don't have Account? <a href="login.html" class="btn_signup " type="button">SignUp</a></p>
+                    </div>
+                  </form>
+                </div>
+                <div class="social_login">
+                  <h4>Login With</h4>
+                  <ul>
+                    <li>
+                      <a href="#" class="btn_social"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn_social"><i class="fa-brands fa-google"></i></a>
+                    </li>
+                    <li>
+                      <a href="#" class="btn_social"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+        
+              </div>
+            </div>
+    
+
 
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script> <!--Jquery 3.7-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script><!--Bootstrap 5.3-->
@@ -1443,6 +1548,7 @@
     <script src="../js/search_modal.js"></script> <!--Search Modal script-->
     <script src="../js/mobileInput.js"></script>
     <script src="../js/countryListDropdown.js"></script>
+    <script src="../js/login_popup.js"></script>
 
     <script>
        

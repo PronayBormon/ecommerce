@@ -12,3 +12,12 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
   })
+
+
+//   footer menu 
+$(document).ready(function(){
+    $('.f_option ul li ').click(function(){
+      $('li a').removeClass("active");
+      $(this).addClass("active");
+  });
+  });
