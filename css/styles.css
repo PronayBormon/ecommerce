@@ -425,7 +425,7 @@ position: relative;
   color: #8f8f8f;        
   font-weight: 400;
 }
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after, .swiper-button-prev:after,.product_slider .owl-nav button.owl-next span,.product_slider .owl-nav button.owl-prev span {
   font-size: 14px;
   background: #000;
   height: 25px;
@@ -435,6 +435,21 @@ position: relative;
   align-items: center;
   color: #ff9901;
   border-radius: 15px;
+}
+.product_slider{
+  position: relative;
+}
+.product_slider .owl-nav button.owl-prev span{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.product_slider .owl-nav button.owl-next span{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .sell_itm p{
   font-size: 12px;
