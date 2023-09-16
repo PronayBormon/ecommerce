@@ -10,8 +10,18 @@ $(document).ready(function(){
       autoplayTimeout:2000,
       autoplayHoverPause:true
     });
+    $(".store_bannar").owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 5,
+      dots:false,
+      nav:false,
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true
+    });
 
-
+    
     $(".product_slider").owlCarousel({
       items: 6,
       loop: false,
