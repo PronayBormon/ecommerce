@@ -1080,6 +1080,7 @@ display: flex;
   transition: .4s all ease-in-out;
   box-shadow: 0 0 20px #c4c1c1d1;
   font-size: 12px;
+  cursor: pointer;
 }
 .btn_sold{    
   width: 100%;        
