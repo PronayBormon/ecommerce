@@ -5064,6 +5064,8 @@ left: 50%;
 transform: translate(-50%, -50%);
 
 position: absolute;
+
+border-radius: 5px;
 }
 .form_box form{
 
@@ -5159,6 +5161,8 @@ position: absolute;
   background-color: #fff;
   width: 400px;
   padding: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
 }
 .modal_box form{
 

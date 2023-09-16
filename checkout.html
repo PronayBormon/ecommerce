@@ -956,7 +956,64 @@
                     ga-129, Hajari bari road, Mohakhali, Dhaka, Mohakhali TB Gate Jame Mosjid, Dhaka - North, Dhaka, Oposite side of titumir college
                   </p>
                 </div>
-                <div><a href="#" class="chage_Daddress">Change</a></div>
+                <div>
+                  <a href="#" class="chage_Daddress">Change</a>
+                  <button type="button" class="add_address"> <i class="fa-solid fa-plus"></i>Add New address</button>
+                      <!-- address modal here  -->
+                      <div class="modal_address_here address_div">
+                        <div class="address_form_modal">
+                          <div class="d-flex justify-content-between">
+                            <p>Add New address</p>
+                            <button type="button" class="btn-close btn_address_close"></button>
+                          </div>
+                          <form action="">
+                            <div class="adds_type_radio">
+                              <div class="adds_box">
+                                <label for="adds_type1">Home</label>
+                                <input type="radio" id="adds_type1" name="adds_type" checked class="red"  >
+                              </div>
+                              <div  class="adds_box">
+                                <label for="adds_type">Office </label>
+                                <input type="radio" id="adds_type" name="adds_type" class=""  >
+                              </div>
+                            </div>
+                            <div>
+                              <label for="City">City </label>
+                              <select class="form-control" name="" id="city">
+                                <option value="" selected disabled>Select Your City</option>
+                                <option value="">Dhaka</option>
+                                <option value="">Tangail</option>
+                                <option value="">Gazipur</option>
+                                <option value="">Manikganj</option>
+                              </select>
+                            </div>
+                            <div>
+                              <label for="area">Area</label>
+                              <input type="text" name="area" id="area" class="form-control"  >
+                            </div>
+                            <div>
+                              <label for="">Address </label>
+                              <input type="text" class="form-control"  >
+                            </div>
+                            <div>
+                              <label for="">Land Mark </label>
+                              <input type="text" class="form-control"  >
+                            </div>
+                            <div class="">
+                              <label for="">Phone  </label> <br>
+                              <input type="text" id="" class="form-control mobile_code" placeholder="Phone Number" name="name">
+                            </div>
+                            <div>
+                              <button type="button" class="btn_cart mt-3" style="visibility: unset;">Save</button>
+                            </div>
+
+                          </form>
+                        </div>
+                        
+
+                      </div>
+                      <!-- address modal end here  -->
+                </div>
                 <!-- modal start  -->
                 <div class="modal_checkoutpage billing">
                   <div class="modal_box">
@@ -988,8 +1045,8 @@
                     <form action="">
                       <select name="" id="" class="form-control">
                         <option value="" disabled selected> Select One </option>
-                        <option value="">Address 1</option>
-                        <option value="">Address 2</option>
+                        <option value="">PickUp Point One </option>
+                        <option value="">Pick Point Two </option>
                       </select>
                       <button class="btn_confirm mt-2">Submit</button>
                     </form>
@@ -1015,7 +1072,7 @@
                   </div>
                 </div>
                 <!-- modal end  -->
-              <p>Email to useremail@mail.com <a href="user-profile.html">Edit</a></p>
+              <p>Email to useremail@mail.com <a href="../user/user-profile.html">Edit</a></p>
             </div>
             <div class="items_details">
               <h5>Happy Shopping</h5>
@@ -1477,6 +1534,22 @@
             $(".modal_close").on("click", function(){
               $(".pickup_point").fadeOut();
             })
+            // add address 
+            $(".add_address").on("click", function(){
+            $(".address_div").fadeIn();
+            })
+            $(".btn_address_close").on("click", function(){
+              $(".address_div").fadeOut();
+            })
+
+            // input active             
+            $('input:radio:checked').parent().addClass("active");
+            $('input:radio').click(function () {
+              $('input:not(:checked)').parent().removeClass("active");
+              $('input:checked').parent().addClass("active");
+            });
+
+
         })
     </script>
   </body>
