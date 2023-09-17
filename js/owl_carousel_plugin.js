@@ -10,7 +10,7 @@ $(document).ready(function(){
       autoplayTimeout:2000,
       autoplayHoverPause:true
     });
-    $(".store_bannar").owlCarousel({
+    $(".store_add").owlCarousel({
       items: 1,
       loop: true,
       margin: 5,
