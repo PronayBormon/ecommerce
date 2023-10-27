@@ -908,9 +908,7 @@ font-size: 12px;
 .delivery_list ul li{
 
 }
-.delivery_list ul{
-
-}
+.delivery_list ul{margin-left: 5px;}
 .brands_list{
 
 }
@@ -940,13 +938,7 @@ box-shadow: none !important;
 
 margin-bottom: 10px;
 }
-.brand_scroll{
-
-height: 240px;
-
-overflow: auto;
-scrollbar-width: none;
-}
+.brand_scroll{height: 240px;overflow: auto;scrollbar-width: none;margin-left: 5px;}
 .brand_scroll::-webkit-scrollbar{
   display: none;
 }
